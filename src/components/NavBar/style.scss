@@ -1,3 +1,28 @@
-.nav{
-  background-color: red;
+nav{
+  background-color: none;
+  height: 6rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  //border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+
+  ul{
+    display: flex;
+    list-style: none;
+    font-weight: 800;
+    //background-color: red;
+    margin-top: 2rem;
+    margin-right: 6rem;
+    gap: 8rem;
+    a{
+      //letter-spacing: 1px;
+      font-size: 2rem;
+      //text-transform: uppercase;  
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
 }
