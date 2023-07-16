@@ -1,17 +1,25 @@
 import { About } from "./components/About"
+import { Carrousell } from "./components/Carrousell"
 import { Contact } from "./components/Contact"
 import { Container } from "./components/Container"
-import { Header } from "./components/Header"
-import { Services } from "./components/Services"
+import { Description } from "./components/Description"
+import { Footer } from "./components/Footer"
+import { Home } from "./components/Home"
+import { NavBar } from "./components/NavBar"
+import { OurServices } from "./components/OurServices"
 
 function App() {
   return (
     <>
-      <Header/>
       <Container>
+        <NavBar/>
+        <Home/>
+        <Description/>
+        <Carrousell/>
+        <OurServices/>
         <About/>
         <Contact/>
-        <Services/>
+        <Footer/>
       </Container>
     </>
   )
