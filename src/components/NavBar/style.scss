@@ -1,28 +1,38 @@
 nav{
-  background-color: none;
-  height: 6rem;
   position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: end;
   width: 100%;
-  //border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-
-  ul{
+  z-index: 4;
+  backdrop-filter: blur(1px);
+  
+  &>div{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  ul{
+    // transition: margin 0.9s ease-out; 
+    margin-top: 4rem;
+    min-height: 6rem;
+    display: flex;
+    // align-items: center;
+    justify-content: end;
     list-style: none;
-    font-weight: 800;
+    font-weight: 700;
     //background-color: red;
-    margin-top: 2rem;
-    margin-right: 6rem;
-    gap: 8rem;
+    gap: 7rem;
     a{
-      //letter-spacing: 1px;
+      // letter-spacing: 1px;
       font-size: 2rem;
       //text-transform: uppercase;  
       text-decoration: none;
       color: inherit;
     }
   }
-
+  .logo{
+    // border: 1px solid red;
+    transition: .6s ease;
+    // position: absolute;
+    // display: flex;
+  }
 }
