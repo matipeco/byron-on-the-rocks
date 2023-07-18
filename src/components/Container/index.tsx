@@ -3,8 +3,8 @@ import './style.scss'
 
 export const Container:FunctionComponent<PropsWithChildren> = ({children})=>{
   return(
-    <main className="container">
+    <div className="container">
       {children}
-    </main>
+    </div>
   )
 }
