@@ -2,7 +2,9 @@ nav{
   position: fixed;
   width: 100%;
   z-index: 4;
-  backdrop-filter: blur(1px);
+  &.scrolled {
+    backdrop-filter: blur(8px);
+  }
   
   &>div{
     display: flex;
@@ -21,6 +23,7 @@ nav{
     font-weight: 700;
     //background-color: red;
     gap: 7rem;
+    
     a{
       // letter-spacing: 1px;
       font-size: 2rem;

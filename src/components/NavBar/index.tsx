@@ -1,17 +1,18 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container } from '../Container';
 import logo from "../../assets/logo-black.svg"
 import './style.scss';
 
 export const NavBar = () => {
   const [logoSize, setLogoSize] = useState(160);
+  const [scrolledDown, setScrolledDown] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = document.documentElement.scrollTop;
-      const newLogoSize = scrollTop <= 60 ? 160 : 95;
+      const newLogoSize = scrollTop <= 60 ? 160 : 90;
       setLogoSize(newLogoSize);
-      console.log(scrollTop)
+      setScrolledDown(scrollTop > 0);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -20,7 +21,7 @@ export const NavBar = () => {
   }, []);
 
   return (
-    <nav>
+    <nav className={scrolledDown ? 'scrolled' : ''}>
       <Container>
         <img
           className="logo"
