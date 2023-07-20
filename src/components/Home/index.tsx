@@ -1,11 +1,11 @@
-import background from "../../assets/edit.png"
+// import background from "../../assets/edit.png"
 import { Container } from "../Container"
 import './style.scss'
 
 export const Home = ()=> {
   return(
     <header id="Home" className="home__container">
-      <img className="home__background" src={background} alt="" width='50' height='50'/>
+      {/* <img className="home__background" src={background} alt="" width='50' height='50'/> */}
       <Container>
         <div className="home__text">
           <h2>Welcome to our world of <br/>
@@ -14,8 +14,9 @@ export const Home = ()=> {
            pop-up bar events in the beautiful region <br/>
           of Northern Rivers and its surroundings.</p>
         </div>
+
+        <a className="home__button" href="#Description">Explore</a>
       </Container>
-      <div className="home__gradient-overlay "></div>
     </header>
   )
 }
