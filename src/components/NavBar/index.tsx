@@ -23,13 +23,15 @@ export const NavBar = () => {
   return (
     <nav className={scrolledDown ? 'scrolled' : ''}>
       <Container>
-        <img
-          className="logo"
-          src={logo}
-          alt="logo"
-          width={logoSize}
-          height={logoSize}
-        />
+        <a href="#">
+          <img
+            className="logo"
+            src={logo}
+            alt="logo"
+            width={logoSize}
+            height={logoSize}
+          />
+        </a>
         <ul>
           <li><a href="#Home">Home</a></li>
           <li><a href="#OurServices">Our Services</a></li>
