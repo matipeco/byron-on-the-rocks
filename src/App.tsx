@@ -1,4 +1,5 @@
 import { About } from "./components/About"
+import { BoxDescription } from "./components/BoxDescription"
 import { Carrousell } from "./components/Carrousell"
 import { Contact } from "./components/Contact"
 import { Description } from "./components/Description"
@@ -14,6 +15,7 @@ function App() {
           <NavBar/>
           <Home/>
           <Description/>
+          <BoxDescription/>
           <Carrousell/>
           <OurServices/>
           <About/>
