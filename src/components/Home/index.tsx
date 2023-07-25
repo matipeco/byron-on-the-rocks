@@ -5,7 +5,6 @@ import './style.scss'
 export const Home = ()=> {
   return(
     <header id="Home" className="home__container">
-      {/* <img className="home__background" src={background} alt="" width='50' height='50'/> */}
       <Container>
         <div className="home__text">
           <h2>Welcome to our world of <br/>
