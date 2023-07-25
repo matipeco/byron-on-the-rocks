@@ -1,10 +1,10 @@
 .container{
   &__carrousell{
-    // min-height: 100vh;
-    background-color: red;
+    min-height: 100vh;
+    background-color: #f2f2f2;
   }
   &__slides{
-    border: 1px solid yellow;
+    // border: 1px solid yellow;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,7 @@
 .slide{
   // padding: 5rem 0;
   // margin-bottom: 2rem;
-  background-color: green;
+  // background-color: green;
 
   img{
     margin: 0;
