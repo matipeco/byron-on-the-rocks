@@ -13,6 +13,7 @@ export const Home = ()=> {
           <p>We are <h1>Byron On The Rocks</h1>, experts in <br/>
            pop-up bar events in the beautiful region <br/>
           of Northern Rivers and its surroundings.</p>
+          <div className="scrollAuto" id="Description"></div>
         </div>
 
         <a className="home__button" href="#Description">Explore</a>
