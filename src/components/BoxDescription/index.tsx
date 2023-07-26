@@ -1,4 +1,4 @@
-import services from "../../assets/carrousell/img1.jpg"
+import services from "../../assets/carrousell/img6.jpg"
 import './styled.scss'
 
 export const BoxDescription = ()=>{
