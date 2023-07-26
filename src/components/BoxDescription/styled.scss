@@ -20,7 +20,6 @@
     
   }
   &::before{
-
     position: absolute;
     content: "";
     bottom: 0rem;
@@ -32,9 +31,9 @@
 
   p{
     color: #1F2622;
-    width: 45%;
-    margin-left: 4rem;
-    font-size: 3.2rem;
+    width: 35ch;
+    margin-left: 3rem;
+    font-size: 3rem;
     font-weight: 500;
     font-family: 'Galano Grotesque Alt', sans-serif;
   }
