@@ -1,6 +1,27 @@
 .contact{
   &__container{
-    background-color: green;
+    background-color: #e6e6e8;
     min-height: 100vh;
+    &>div{
+      // background-color: red;
+      min-height: 100vh;
+      display: flex;
+      // align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    &-text{
+      margin-top: 13rem;
+      margin-bottom: 2rem;
+      h3{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+      }
+      p{
+        font-size: 1.6rem;
+      }
+    }
   }
+  
 }
