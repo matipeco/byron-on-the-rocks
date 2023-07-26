@@ -1,48 +1,31 @@
-.container{
-  &__carrousell{
-    min-height: 100vh;
-    background-color: #f2f2f2;
-  }
-  &__slides{
-    // border: 1px solid yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container__carrousell{
+  padding: 15rem 0;
+  background-color: rgba(230, 230, 232, 1);
 
-    .swiper-horizontal > 
-    .swiper-pagination-bullets 
-    .swiper-pagination-bullet, 
-    .swiper-pagination-horizontal.swiper-pagination-bullets 
-    .swiper-pagination-bullet{
-      width: 15px; /* Ajusta el ancho */
-      height: 15px; /* Ajusta la altura */
-      background-color: #fff; /* Ajusta el color de fondo */
-      opacity: 0.5; 
-      margin: 0 1.5rem 1rem;
-
-      &:active{
-        background-color: blue;
-      }
-      
-    }
-
-    
-  }
 }
 
-.slide{
-  // padding: 5rem 0;
-  // margin-bottom: 2rem;
-  // background-color: green;
-
-  img{
-    margin: 0;
-    // border: 2px solid green;
-    object-fit: contain;
-    width: 100%;
-  }
+.slide-img {
+  object-fit: cover;
 }
 
+.splide {
+  background-color: rgba(230, 230, 232, 1);
+}
+
+.splide__slide:not(.is-active) .slide-img {
+  opacity: 0.7;
+  filter: blur(4px); 
+  /* Aplicar desenfoque en las diapositivas no activas */
+}
+
+.splide__slide.is-active .slide-img {
+  transition: opacity 350ms ease-out;
+  // box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  filter: none; /* Quitar el desenfoque en la diapositiva activa */
+}
+
+/* Ajuste adicional para evitar un desplazamiento de página al hacer clic en flechas */
+.splide__arrow {
+  z-index: 1;
+}
