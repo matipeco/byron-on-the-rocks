@@ -4,6 +4,8 @@
   // outline: 1px solid yellow;
   background-color:rgba(230, 230, 232, 1);
   position: relative;
+  overflow: hidden;
+
   &::after{
     position: absolute;
     content: "";
@@ -13,12 +15,14 @@
     height: 10rem;
     background: linear-gradient(to top, rgba(255, 255, 255, 0),rgba(230, 230, 232, 1)); 
   }
+
   img{
-    width: 50%;
+    width: 100%;
     height: 600px;
     object-fit: cover;
     
   }
+
   &::before{
     position: absolute;
     content: "";
@@ -31,10 +35,20 @@
 
   p{
     color: #1F2622;
-    width: 35ch;
-    margin-left: 3rem;
-    font-size: 3rem;
+    // width: 98%;
+    margin-left: 2rem;
+    font-size: 2.8rem;
     font-weight: 500;
     font-family: 'Galano Grotesque Alt', sans-serif;
+
+    span{
+      color: #1F2622;
+      // margin-left: 3rem;
+      font-size: 3rem;
+      font-weight: 600;
+      font-family: 'Galano Grotesque Alt', sans-serif;
+      display: block;
+
+    }
   }
 }
