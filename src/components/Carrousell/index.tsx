@@ -31,14 +31,14 @@ export const Carrousell = () => {
           focus: "center",
           // width: "100%",
           // height: "50rem",
-          // fixedWidth: "auto",
-          // fixedHeight: "40rem",
+          fixedWidth: "auto",
+          fixedHeight: "30rem",
           autoplay: true,
           interval: 2200,
           trimSpace: false,
           drag: true,
           easing: "cubic-bezier(0, 0, 0.58, 1)",
-          speed: 350,
+          speed: 300,
           rewind: true,
           // gap: 180,
         }}
@@ -48,8 +48,8 @@ export const Carrousell = () => {
             className="slide-img"
             src={img1}
             alt=""
-            width="800"
-            height="500"
+            width="600"
+            height="300"
           />
         </SplideSlide>
         <SplideSlide>
@@ -57,8 +57,8 @@ export const Carrousell = () => {
             className="slide-img"
             src={img2}
             alt=""
-            width="800"
-            height="500"
+            width="600"
+            height="300"
           />
         </SplideSlide>
         <SplideSlide>
@@ -66,8 +66,8 @@ export const Carrousell = () => {
             className="slide-img"
             src={img3}
             alt=""
-            width="800"
-            height="500"
+            width="600"
+            height="300"
           />
         </SplideSlide>
         <SplideSlide>
@@ -75,8 +75,8 @@ export const Carrousell = () => {
             className="slide-img"
             src={img4}
             alt=""
-            width="800"
-            height="500"
+            width="600"
+            height="300"
           />
         </SplideSlide>
 
@@ -85,8 +85,8 @@ export const Carrousell = () => {
             className="slide-img"
             src={img5}
             alt=""
-            width="800"
-            height="500"
+            width="600"
+            height="300"
           />
         </SplideSlide>
         <SplideSlide>
@@ -94,8 +94,8 @@ export const Carrousell = () => {
             className="slide-img"
             src={img6}
             alt=""
-            width="800"
-            height="500"
+            width="600"
+            height="300"
           />
         </SplideSlide>
 
@@ -104,8 +104,8 @@ export const Carrousell = () => {
             className="slide-img"
             src={img7}
             alt=""
-            width="800"
-            height="500"
+            width="600"
+            height="300"
           />
         </SplideSlide>
       </Splide>
