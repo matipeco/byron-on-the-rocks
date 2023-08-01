@@ -40,7 +40,7 @@ export const Carrousell = () => {
           easing: "cubic-bezier(0, 0, 0.58, 1)",
           speed: 300,
           rewind: true,
-          // gap: 180,
+          gap: 0,
         }}
       >
         <SplideSlide>
