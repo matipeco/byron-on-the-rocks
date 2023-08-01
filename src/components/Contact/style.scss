@@ -2,16 +2,16 @@
   &__container{
     background-color: #e6e6e8;
     min-height: 100vh;
+    position: relative;
     &>div{
       // background-color: red;
       min-height: 100vh;
       display: flex;
-      align-items: end;
+      align-items: center;
       justify-content: center;
       flex-direction: column;
-      position: relative;
     }
-
+    
     &-text{
       margin-top: 13rem;
       margin-bottom: 2rem;
@@ -24,15 +24,16 @@
       }
     }
   }
-
-
-  &__img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
-  }
+  
+  
+  // &__img{
+  //   // z-index: -1;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   opacity: 1;
+  // }
   
 }
