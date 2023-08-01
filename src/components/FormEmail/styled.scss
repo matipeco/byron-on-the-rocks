@@ -7,11 +7,13 @@
     // gap: 1rem;
     input{
       margin-bottom: 2rem;
-      width: 30rem;
+      width: 35rem;
       height: 3rem;
+      // border-radius: 3px;
     }
     textarea{
-      width: 30rem;
+      // border-radius: 3px;
+      width: 35rem;
       height: 15rem;
     }
     label{
@@ -20,6 +22,8 @@
     :last-child{
       font-size: 1.6rem;
       margin-top: 2rem;
+      // background-color: red;
+      cursor: pointer;
     }
   }
 }
