@@ -7,11 +7,19 @@
       // background-color: red;
       min-height: 100vh;
       display: flex;
-      align-items: center;
+      // align-items: center;
       justify-content: center;
       flex-direction: column;
     }
-    
+    &-icons{
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+      gap: 1rem;
+      // background-color: red;
+
+    }
+
     &-text{
       margin-top: 13rem;
       margin-bottom: 2rem;
