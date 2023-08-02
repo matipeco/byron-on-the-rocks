@@ -38,7 +38,7 @@ export const Carrousell = () => {
           trimSpace: false,
           drag: true,
           easing: "cubic-bezier(0, 0, 0.58, 1)",
-          speed: 300,
+          speed: 400,
           rewind: true,
           gap: 0,
         }}
