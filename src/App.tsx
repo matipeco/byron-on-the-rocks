@@ -16,8 +16,8 @@ function App() {
         <Home />
         <Description />
         <BoxDescription />
-        <Carrousell />
         <OurServices />
+        <Carrousell />
         <About />
         <Contact />
       </main>
