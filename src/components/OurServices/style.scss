@@ -2,5 +2,9 @@
   &__container{
     background-color: rgba(230, 230, 232, 1);
     min-height: 100vh;
+    &>div{
+      padding-top: 10rem;
+      
+    }
   }
 }
