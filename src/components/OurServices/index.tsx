@@ -18,6 +18,7 @@ export const OurServices = () => {
           </p>
           <img src={box1} alt="" width="500" height="500" />
         </div>
+
         {/* <div className="ourservices__container-box2">
           <img src={box2} alt="" width="500" height="500" />
           <p>
