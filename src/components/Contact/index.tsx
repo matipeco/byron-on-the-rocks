@@ -21,7 +21,6 @@ export const Contact = () => {
           <h3>Contact Us</h3>
           <FormEmail />
           <div className="contact__container-icons">
-            {/* gola */}
             <a href="mailto:byronontherocksbar@gmail.com">
               <img src={mail} alt="" width="45" height="45" />
             </a>
