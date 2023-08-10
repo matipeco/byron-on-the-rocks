@@ -1,10 +1,44 @@
 .ourservices{
   &__container{
-    background-color: rgba(230, 230, 232, 1);
+    background-color: #e6e6e8;
     min-height: 100vh;
     &>div{
-      padding-top: 10rem;
-      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      // text-align: center;
+    }
+
+    &-title{
+      width: 80%;
+      padding-top: 12rem;
+      font-size: 3.8rem;
+      text-align: center;
+      font-family: 'Galano Grotesque Alt', sans-serif;
+      span{
+        font-size: 4rem;
+        font-weight: 500;
+      }
+    }
+    &-box1{
+      // width: 95%;
+      display: flex;
+      // justify-content: center;
+      // align-items: center;
+      margin-top: 8rem;
+      p{
+        font-size: 3.5rem;
+        margin-left: 2rem;
+        margin-right: 4rem;
+        text-align: right;
+        width: 60rem;
+      }
+      img{
+        object-fit: contain;
+        width: 55rem;
+        height: auto;
+      }
     }
   }
-}
+} 
