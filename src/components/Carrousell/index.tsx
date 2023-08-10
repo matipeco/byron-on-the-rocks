@@ -1,5 +1,4 @@
 import "./styled.scss";
-import vasito from "../../assets/vasito.png";
 import img1 from "../../assets/carrousell/img1.jpg";
 import img2 from "../../assets/carrousell/img2.jpg";
 import img3 from "../../assets/carrousell/img3.jpg";
@@ -17,13 +16,6 @@ import "@splidejs/splide/dist/css/splide.min.css";
 export const Carrousell = () => {
   return (
     <section className="container__carrousell">
-      <img
-        className="carrousell__img"
-        src={vasito}
-        alt=""
-        width="1920"
-        height="1080"
-      />
       <Splide
         options={{
           type: "loop",
