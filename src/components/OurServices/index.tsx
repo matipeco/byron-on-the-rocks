@@ -14,7 +14,7 @@ export const OurServices = () => {
             From simple packages featuring a selection of beers, wines, and
             champagnes; to delving into the world of expertly crafted cocktails,
             mocktails, and homemade lemonade. We have the perfect beverage
-            options to satisfy every palate.
+            options to satisfy every palate...
           </p>
           <img src={box1} alt="" width="500" height="500" />
         </div>
