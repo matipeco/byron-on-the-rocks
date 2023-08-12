@@ -3,7 +3,7 @@ import { FormEmail } from "../FormEmail";
 import wpp from "../../assets/wapp.svg";
 import mail from "../../assets/mail.svg";
 import insta from "../../assets/insta.svg";
-import vaso from "../../assets/vaso.svg";
+// import vaso from "../../assets/vaso.svg";
 import "./style.scss";
 
 export const Contact = () => {
