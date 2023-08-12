@@ -31,13 +31,13 @@ export const FormEmail = () => {
   return (
     <form ref={form} onSubmit={(e) => sendEmail(e)} className="form__container">
       <label htmlFor="name">Name</label>
-      <input type="text" name="user_name" id="name" />
+      <input type="text" name="user_name" id="name" placeholder="Name" />
 
       <label htmlFor="email">Email</label>
-      <input type="email" name="user_email" id="email" />
+      <input type="email" name="user_email" id="email" placeholder="Email" />
 
       <label htmlFor="message">Message</label>
-      <textarea name="message" id="message" />
+      <textarea name="message" id="message" placeholder="Message" />
 
       <input type="submit" value="Send" />
     </form>
