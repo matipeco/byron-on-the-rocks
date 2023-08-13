@@ -30,7 +30,7 @@
     }
     :last-child{
       // display: none;
-      border: 3px solid #1F2622;
+      border: 2px solid #1F2622;
       font-size: 2rem;
       font-weight: 600;
       // margin-top: 2rem;
@@ -39,11 +39,11 @@
       transition:background-color 300ms ease-in-out;
       cursor: pointer;
       // width: 25%;
-      background-color:  #1f262222;
+      background-color:  #1f262244;
       letter-spacing: 4px;
     }
     :last-child:hover{
-      background-color:  #1f262231;
+      background-color:  #1f262229;
     }
 
   }
