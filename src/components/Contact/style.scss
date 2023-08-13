@@ -2,26 +2,26 @@
   &__container{
     background-color: #e6e6e8;
     // background-color: red;
-    padding: 2rem 0 4rem;
+    padding: 0 0 4rem;
     display: flex;
     justify-content: center;
     position: relative;
     &-box{
-      // flex-direction: row-reverse;
+      flex-direction: row-reverse;
       // align-items: center;
       overflow: visible;
-      margin-top: -3.5rem;
-      // background-color: rgba(0, 0, 0, 0.02);
+      // margin-top: -3.5rem;
+      // background-color: rgba(0, 0, 0, 0.1);
       // padding: 0rem 15rem;
       display: flex;
-      // max-width: 100rem;
+      max-width: 100rem;
       width: 100%;
       height: 55rem;
       justify-content: center;
-      gap: 8rem;
+      gap: 10rem;
       // flex-direction: column;
       &>div{
-        // margin-top: -4rem;
+        margin-top: 4rem;
         // margin-right: 5rem;
         display: flex;
         flex-direction: column;
@@ -29,12 +29,15 @@
         // transform: translateY(10rem);
       }
       div:first-child + div{
-        margin-top: 5rem;
+        // margin-top: 5rem;
         color: #1F2622;
         // outline: 1px solid green;
         h3{
           font-size: 4.5rem;
           margin-bottom: 3rem;
+          // text-align: left;
+          // background-color: red;
+          // width: 100%;
         }
       }
     }
@@ -42,37 +45,43 @@
     &-img{
       z-index: 1;
       // border: 1px solid yellow;
-      width: 42rem;
+      width: 135%;
       height: auto;
-      transform: translateY(-7rem);
+      transform: translateY(-2rem);
     }
     &-icons{
-      border-top: 2px solid #1f2622c6;
-      margin-top: -3rem;
+      border-top: 1.8px solid #1f2622c6;
+      margin-top: -4rem;
       display: flex;
       align-items: center;
       justify-content: center;
       // gap: 1rem;
-      margin-right: 1rem;
+      // margin-right: 1rem;
       // background-color: red;
-      width: 78%;
-      transform: translateY(-7rem);
-      gap: 5rem;
+      width: 105%;
+      height: auto;
+      // transform: translateY(-7rem);
+      gap: 4.2rem;
       padding-top: 3rem;
       &-wpp{
         // border: 1px solid red;
-        width: 5.5rem;
+        width: 4.5rem;
         height: auto;
-
       }
       &-insta{
-        width: 7rem;
+        width: 6rem;
         height: auto;
         margin-left: 1rem;
       }
       &-mail{
-        width: 7.1rem;
+        width: 6rem;
         height: auto;
+      }
+      a{
+        transition: 250ms ease-out;
+      }
+      a:hover{
+        transform: scale(1.1);
       }
     }
 
