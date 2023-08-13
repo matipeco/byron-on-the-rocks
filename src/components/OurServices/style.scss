@@ -72,13 +72,14 @@
       //   // background-color: red;
       // }
       p{
-        font-size: 3.2rem;
+        font-size: 3.5rem;
         // margin-left: 2rem;
         margin-right: 3rem;
         // text-align: right;
         line-height: 5rem;
         width: 60%;
         // background-color: red;
+       
       }
       img{
         object-fit: contain;
@@ -92,11 +93,11 @@
     }
     &-box2{
       // width: 95%;
-      margin-top: 6rem;
+      margin-top: 8rem;
       // margin-left: 6rem;
       display: flex;
       justify-content: center;
-      align-items: center;
+      // align-items: center;
       font-family: 'Galano Grotesque Alt', sans-serif;
       position: relative;
       // &::after{
@@ -121,13 +122,17 @@
       // }
       // background-color: yellow;
       p{
-        font-size: 3.2rem;
+        font-size: 3.5rem;
         margin-left: 3rem;
         // margin-right: 1rem;
         // text-align: ;
-        line-height: 4.5rem;
+        line-height: 5rem;
         width: 52%;
         // background-color: red;
+        span{
+          font-size: 3.5rem;
+          font-weight: 500;
+        }
       }
       img{
         object-fit: contain;

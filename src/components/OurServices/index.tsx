@@ -34,10 +34,10 @@ export const OurServices = () => {
             <img src={box2} alt="" width="500" height="500" />
             <p>
               Whether you envision an intimate soirée or a grand celebration,
-              let Byron On The Rocks transform your event into an unforgettable
-              experience. Contact us to discuss your event preferences, and let
-              us raise the bar together. Cheers to creating extraordinary
-              moments!
+              let <span>Byron On The Rocks</span> transform your event into an
+              unforgettable experience. Contact us to discuss your event
+              preferences, and let us raise the bar together. Cheers to creating
+              extraordinary moments!
             </p>
           </div>
         </Container>
