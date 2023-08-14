@@ -10,97 +10,100 @@ import img7 from "../../assets/carrousell/img7.jpg";
 //@ts-ignore
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+import { Fade } from "react-awesome-reveal";
 // import '@splidejs/react-splide/css/skyblue';
 // import '@splidejs/react-splide/css/sea-greens';
 
 export const Carrousell = () => {
   return (
-    <section className="container__carrousell">
-      <Splide
-        options={{
-          type: "loop",
-          perPage: 2,
-          focus: "center",
-          // width: "100%",
-          // height: "50rem",
-          fixedWidth: "auto",
-          fixedHeight: "30rem",
-          autoplay: true,
-          interval: 2200,
-          trimSpace: false,
-          drag: true,
-          easing: "cubic-bezier(0, 0, 0.58, 1)",
-          speed: 400,
-          rewind: true,
-          gap: 0,
-        }}
-      >
-        <SplideSlide>
-          <img
-            className="slide-img"
-            src={img1}
-            alt=""
-            width="600"
-            height="300"
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <img
-            className="slide-img"
-            src={img2}
-            alt=""
-            width="600"
-            height="300"
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <img
-            className="slide-img"
-            src={img3}
-            alt=""
-            width="600"
-            height="300"
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <img
-            className="slide-img"
-            src={img4}
-            alt=""
-            width="600"
-            height="300"
-          />
-        </SplideSlide>
+    <Fade delay={500} damping={0.2} duration={1600} triggerOnce>
+      <section className="container__carrousell">
+        <Splide
+          options={{
+            type: "loop",
+            perPage: 2,
+            focus: "center",
+            // width: "100%",
+            // height: "50rem",
+            fixedWidth: "auto",
+            fixedHeight: "30rem",
+            autoplay: true,
+            interval: 2200,
+            trimSpace: false,
+            drag: true,
+            easing: "cubic-bezier(0, 0, 0.58, 1)",
+            speed: 400,
+            rewind: true,
+            gap: 0,
+          }}
+        >
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img1}
+              alt=""
+              width="600"
+              height="300"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img2}
+              alt=""
+              width="600"
+              height="300"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img3}
+              alt=""
+              width="600"
+              height="300"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img4}
+              alt=""
+              width="600"
+              height="300"
+            />
+          </SplideSlide>
 
-        <SplideSlide>
-          <img
-            className="slide-img"
-            src={img5}
-            alt=""
-            width="600"
-            height="300"
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <img
-            className="slide-img"
-            src={img6}
-            alt=""
-            width="600"
-            height="300"
-          />
-        </SplideSlide>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img5}
+              alt=""
+              width="600"
+              height="300"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img6}
+              alt=""
+              width="600"
+              height="300"
+            />
+          </SplideSlide>
 
-        <SplideSlide>
-          <img
-            className="slide-img"
-            src={img7}
-            alt=""
-            width="600"
-            height="300"
-          />
-        </SplideSlide>
-      </Splide>
-    </section>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img7}
+              alt=""
+              width="600"
+              height="300"
+            />
+          </SplideSlide>
+        </Splide>
+      </section>
+    </Fade>
   );
 };
