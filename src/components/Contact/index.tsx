@@ -5,54 +5,57 @@ import mail from "../../assets/mail.svg";
 import insta from "../../assets/insta.svg";
 // import vaso from "../../assets/vaso.svg";
 import "./style.scss";
+import { Fade } from "react-awesome-reveal";
 
 export const Contact = () => {
   return (
     <section id="Contact" className="contact__container">
-      <div className="contact__container-box">
-        <div>
-          <img
-            className="contact__container-img"
-            src={logo}
-            alt=""
-            width="500"
-            height="500"
-          />
-          <div className="contact__container-icons">
-            <a href="#">
-              <img
-                className="contact__container-icons-wpp"
-                src={wpp}
-                alt=""
-                width="50"
-                height="50"
-              />
-            </a>
-            <a href="#">
-              <img
-                className="contact__container-icons-insta"
-                src={insta}
-                alt=""
-                width="50"
-                height="50"
-              />
-            </a>
-            <a href="mailto:byronontherocksbar@gmail.com">
-              <img
-                className="contact__container-icons-mail"
-                src={mail}
-                alt=""
-                width="50"
-                height="50"
-              />
-            </a>
+      <Fade delay={400} damping={0.2} duration={1500} triggerOnce>
+        <div className="contact__container-box">
+          <div>
+            <img
+              className="contact__container-img"
+              src={logo}
+              alt=""
+              width="500"
+              height="500"
+            />
+            <div className="contact__container-icons">
+              <a href="#">
+                <img
+                  className="contact__container-icons-wpp"
+                  src={wpp}
+                  alt=""
+                  width="50"
+                  height="50"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="contact__container-icons-insta"
+                  src={insta}
+                  alt=""
+                  width="50"
+                  height="50"
+                />
+              </a>
+              <a href="mailto:byronontherocksbar@gmail.com">
+                <img
+                  className="contact__container-icons-mail"
+                  src={mail}
+                  alt=""
+                  width="50"
+                  height="50"
+                />
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3>Contact Us</h3>
+            <FormEmail />
           </div>
         </div>
-        <div>
-          <h3>Contact Us</h3>
-          <FormEmail />
-        </div>
-      </div>
+      </Fade>
     </section>
   );
 };
