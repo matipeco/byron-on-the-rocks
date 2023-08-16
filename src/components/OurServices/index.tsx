@@ -20,7 +20,7 @@ export const OurServices = () => {
           className="fadeOurServices"
           delay={400}
           damping={0.2}
-          duration={1500}
+          duration={1300}
           triggerOnce
         >
           <p className="ourservices__container-title">
@@ -29,7 +29,7 @@ export const OurServices = () => {
           </p>
         </Fade>
         <Container>
-          <Fade delay={400} damping={0.2} duration={1550} triggerOnce cascade>
+          <Fade delay={400} damping={0.2} duration={1350} triggerOnce cascade>
             <div className="ourservices__container-box1">
               <p>
                 From simple packages featuring a selection of beers, wines, and
