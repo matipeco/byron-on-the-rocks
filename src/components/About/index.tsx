@@ -15,7 +15,7 @@ export const About = () => {
                 cascade
                 delay={400}
                 damping={0.2}
-                duration={1500}
+                duration={1000}
                 triggerOnce
               >
                 <h3 className="about__title">About Us</h3>
