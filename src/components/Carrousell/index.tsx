@@ -16,8 +16,8 @@ import { Fade } from "react-awesome-reveal";
 
 export const Carrousell = () => {
   return (
-    <Fade delay={500} damping={0.2} duration={1600} triggerOnce>
-      <section className="container__carrousell">
+    <section className="container__carrousell">
+      <Fade delay={500} damping={0.2} duration={1600} triggerOnce>
         <Splide
           options={{
             type: "loop",
@@ -103,7 +103,7 @@ export const Carrousell = () => {
             />
           </SplideSlide>
         </Splide>
-      </section>
-    </Fade>
+      </Fade>
+    </section>
   );
 };
