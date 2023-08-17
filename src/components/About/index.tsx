@@ -8,14 +8,14 @@ export const About = () => {
     <section id="About" className="about__container">
       <div className="about__container-text">
         <Container>
-          <Fade cascade delay={400} damping={0.2} duration={1500} triggerOnce>
+          <Fade cascade delay={350} damping={0.2} duration={800} triggerOnce>
             <img src={about} alt="" width="50" height="50" />
             <div>
               <Fade
                 cascade
                 delay={400}
                 damping={0.2}
-                duration={1000}
+                duration={800}
                 triggerOnce
               >
                 <h3 className="about__title">About Us</h3>
