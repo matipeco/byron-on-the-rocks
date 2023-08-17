@@ -34,6 +34,7 @@ nav{
     gap: 7rem;
     color: #1F2622;
     a{
+      padding-bottom: .5rem;
       // letter-spacing: 1px;
       font-size: 2rem;
       //text-transform: uppercase;  
@@ -48,6 +49,7 @@ nav{
       transition: background-size .3s;
     }
     a:hover, a:focus {
+      text-shadow: 1px 1px 3.5px rgba(255, 255, 255, 0.7);
       background-size: 100% 2px;
     }
   }
