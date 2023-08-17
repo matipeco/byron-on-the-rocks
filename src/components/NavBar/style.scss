@@ -1,3 +1,12 @@
+.hidden{
+ display: none;
+}
+
+// .btn-menu{
+//   display: none;
+// }
+
+
 nav{
   position: fixed;
   width: 100%;
@@ -5,7 +14,7 @@ nav{
   &.scrolled {
     backdrop-filter: blur(5px);
   }
-  
+ 
   &>div{
     display: flex;
     align-items: center;
@@ -47,5 +56,67 @@ nav{
     transition: .6s ease;
     // position: absolute;
     // display: flex;
+  }
+}
+@media (max-width: 750px){
+  .btn-menu{
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 4;
+  }
+  nav{
+    display: flex;
+    transform: scaleX(0);
+    background-color: #e6e6e8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform-origin: center left;
+    transition: 400ms ease-in-out;
+
+    .container{
+      flex-direction: column;
+      justify-content: start;
+      margin-top: 1rem;
+      margin-right: 1rem;
+    }
+    .css-n5xi40{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    ul{
+      flex-direction: column;
+      align-items: center;
+      gap: 8rem;
+      margin-top: 5rem;
+      a{
+        text-shadow: none;
+        text-transform: uppercase;
+      }
+      
+    }
+    .btn-close-container{
+      width: 100%;
+    }
+    .btn-close{
+      display: block;
+      background-color: transparent;
+      border: none;
+      width: 100%;
+      cursor: pointer;
+      text-align: end;
+    }
+    .logo{
+      margin-top: 0rem;
+    }
+  }
+  .open{
+    transform: scaleX(1);
+
   }
 }
