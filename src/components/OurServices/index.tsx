@@ -40,7 +40,7 @@ export const OurServices = () => {
               <img src={box1} alt="" width="500" height="500" />
             </div>
           </Fade>
-          <Fade delay={600} damping={0.2} duration={1600} triggerOnce>
+          <Fade delay={400} damping={0.2} duration={1500} triggerOnce>
             <div className="ourservices__container-box2">
               <img src={box2} alt="" width="500" height="500" />
               <p>
