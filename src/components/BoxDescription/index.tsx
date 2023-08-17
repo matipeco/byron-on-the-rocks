@@ -10,7 +10,7 @@ export const BoxDescription = () => {
         <p>
           With much love and dedication, we will adapt our service to match your
           preferences, ensuring
-          <span>that your vision becomes a reality.</span>
+          <span> that your vision becomes a reality.</span>
         </p>
       </Fade>
     </div>
