@@ -100,6 +100,7 @@ nav{
     }
     
     ul{
+      margin-top: 5rem;
       display: flex;
       justify-content:start;
       align-items: start;
@@ -115,7 +116,7 @@ nav{
       }
       // padding-bottom: 10rem;
       a{
-        font-size: 2.2rem;
+        font-size: 2rem;
         text-shadow: none;
         text-transform: uppercase;
       }
@@ -126,8 +127,8 @@ nav{
     }
     .btn-close-container{
       width: 100%;
-      padding-top: 1rem;
-      padding-right: 1rem;
+      padding-top: 2rem;
+      padding-right: 2rem;
     }
     .btn-close{
       display: block;
@@ -136,9 +137,12 @@ nav{
       width: 100%;
       cursor: pointer;
       text-align: end;
+      img{
+        width: 10%;
+      }
     }
     .logo{
-      width: 23rem;
+      width: 15rem;
       height: auto;
       margin-top: -2rem;
       object-fit: cover;
@@ -191,7 +195,7 @@ nav{
     }
     
     ul{
-      margin-top: 0rem;
+      margin-top: 2rem;
       display: flex;
       justify-content:start;
       align-items: start;
@@ -207,15 +211,15 @@ nav{
       }
       // padding-bottom: 10rem;
       a{
-        font-size: 2.2rem;
+        font-size: 2rem;
         text-shadow: none;
         text-transform: uppercase;
       }
     }
     .btn-close-container{
       width: 100%;
-      padding-top: 1rem;
-      padding-right: 1rem;
+      padding-top: 2rem;
+      padding-right: 2rem;
     }
     .btn-close{
       display: block;
@@ -224,11 +228,14 @@ nav{
       width: 100%;
       cursor: pointer;
       text-align: end;
+      img{
+        width: 10%;
+      }
     }
     .logo{
-      width: 20rem;
+      width: 15rem;
       height: auto;
-      margin-top: -2rem;
+      margin-top: -4rem;
       object-fit: cover;
     }
   }
