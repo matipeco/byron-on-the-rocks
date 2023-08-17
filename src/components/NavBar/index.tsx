@@ -55,8 +55,12 @@ export const NavBar = () => {
     nav?.classList.remove("open");
   };
 
-  const navLinks = document.querySelectorAll(".nav__list-item a");
+  const logoDom = document.getElementById("logo");
+  logoDom?.addEventListener("click", () => {
+    nav?.classList.remove("open");
+  });
 
+  const navLinks = document.querySelectorAll(".nav__list-item a");
   navLinks.forEach((link) => {
     link.addEventListener("click", () => {
       nav?.classList.remove("open");
@@ -82,7 +86,7 @@ export const NavBar = () => {
                 </button>
               </div>
             )}
-            <a href="#">
+            <a href="#" id="logo">
               <img
                 className="logo"
                 src={logo}
