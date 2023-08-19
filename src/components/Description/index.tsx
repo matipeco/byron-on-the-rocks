@@ -17,6 +17,15 @@ export const Description = () => {
             ranging from weddings, birthdays celebrations, corporate events, or
             any other private gathering.
           </p>
+
+          <div className="description__textMob">
+            <p>
+              Our talented bartenders specialize in{" "}
+              <span>bar catering service in all kind of events</span>ranging
+              from weddings, birthdays celebrations, corporate events, or any
+              other private gathering.
+            </p>
+          </div>
         </Fade>
       </div>
     </section>
