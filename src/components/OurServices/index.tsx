@@ -51,6 +51,19 @@ export const OurServices = () => {
                 creating extraordinary moments!
               </p>
             </div>
+            <div className="ourservices__container-box2Mob">
+              <img src={box2} alt="" width="500" height="500" />
+              <p>
+                Whether you envision an intimate soirée or a grand celebration,
+                let <span>Byron On The Rocks</span> transform your event into an
+                unforgettable experience.
+                <p>
+                  Contact us to discuss your event preferences, and let us raise
+                  the bar together.
+                </p>
+                <p>Cheers to creating extraordinary moments!</p>
+              </p>
+            </div>
           </Fade>
         </Container>
       </div>
