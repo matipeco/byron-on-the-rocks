@@ -8,7 +8,7 @@ export const Description = () => {
       <img src={especias} alt="" width="50" height="50" />
 
       <div className="description__text">
-        <Fade cascade delay={200} damping={0.2} duration={1500} triggerOnce>
+        <Fade cascade delay={100} damping={0.2} duration={1500} triggerOnce>
           <p className="description__text1">
             Our talented bartenders specialize in{" "}
           </p>

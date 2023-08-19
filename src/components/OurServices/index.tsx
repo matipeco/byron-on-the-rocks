@@ -53,7 +53,7 @@ export const OurServices = () => {
             </div>
             <div className="ourservices__container-box2Mob">
               <img src={box2} alt="" width="500" height="500" />
-              <p>
+              <p className="text-container">
                 Whether you envision an intimate soirée or a grand celebration,
                 let <span>Byron On The Rocks</span> transform your event into an
                 unforgettable experience.

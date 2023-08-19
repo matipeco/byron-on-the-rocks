@@ -95,7 +95,7 @@
       // margin-bottom: 5rem;
       font-family: 'Galano Grotesque', sans-serif;
       position: relative;
-      padding-bottom: 10rem;
+      padding-bottom: 12rem;
       p{
         font-size: 3rem;
         // margin-left: 2rem;
@@ -108,7 +108,6 @@
       span{
         font-size: 3rem;
         font-weight: 600;
-
       }
       }
       img{
@@ -130,7 +129,7 @@
 @media(max-width:750px){
   .ourservices{
     &__container{
-      padding-bottom: 2rem;
+      padding-bottom: 4rem;
       background-color: #e6e6e8;
       min-height: 100vh;
       position: relative;
@@ -162,12 +161,12 @@
         // margin-left: auto;
         width: 90%;
         // background-color: red;
-        padding: 0rem 0 4rem;
-        font-size: 2.2rem;
+        padding: 0rem 0 4.5rem;
+        font-size: 2rem;
         text-align: center;
         font-family: 'Galano Grotesque Alt', sans-serif;
         span{
-          font-size: 2.2rem;
+          font-size: 2rem;
           font-weight: 600;
         }
         &::after{
@@ -200,8 +199,8 @@
           margin-right: 0;
           margin-top: 2rem;
           text-align: center;
-          line-height: 3rem;
-          width: 90%;
+          line-height: 2.8rem;
+          width: 85%;
           // background-color: red;
         //  position: relative;
         }
@@ -233,30 +232,33 @@
         margin-bottom: 0rem;
         font-family: 'Galano Grotesque', sans-serif;
         position: relative;
-        
-        p{
-          
+        .text-container{
           display: flex;
+          // background-color: red;
           align-items: center;
           flex-direction: column;
           font-size: 2rem;
           margin-top: 2rem;
           margin-left: 0;
           text-align: center;
-          line-height: 3rem;
+          line-height: 2.8rem;
           width: 90%;
           font-size: 2rem;
           // background-color: red;
           //  position: relative;
           p{
-            width: 100%;
-            margin-top: 1.2rem;
+            width: 90%;
+            font-size: 2rem;
+            margin-top: 1rem;
+            // border: 1px solid green;
           }
           span{
-          font-size: 2rem;
-          font-weight: 600;
+            display: block;
+            font-size: 2rem;
+            font-weight: 600;
           }
         }
+        
         img{
           // position: absolute;
           // top: 0;

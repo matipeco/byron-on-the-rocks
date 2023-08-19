@@ -88,13 +88,18 @@
         flex-wrap: nowrap;
         p{
           display: flex;
-          width: 70%;
+          width: 95%;
           flex-direction: column;
           // margin-left: 6rem;
+          padding: 0 2rem;
           text-align: center;
+          align-items: center;
           font-size: 2rem;
+          // outline: 1px solid red;
           span{
-            // width:90%;
+            // outline: 1px solid rgb(66, 38, 135);
+            text-align: center;
+            width:30ch;
             display: block;
             font-size: 2rem;
             font-weight: 600;
@@ -121,7 +126,7 @@
       width: 100%;
       transform: none;
       // opacity: 1; 
-      font-size: 2.2rem;
+      font-size: 2rem;
       // line-height: 3.8rem;
       // background-color: red;
       // padding:0 0 2.5rem 0;
@@ -132,19 +137,14 @@
         justify-content: center;
       }
       span{
-
         display: none;
-  
       }
     }
-    
     &__text1{
-      
       display: none;
     }
     &__text2{
       display: none;
-     
     }
   }
 }
