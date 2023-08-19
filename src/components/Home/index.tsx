@@ -9,7 +9,15 @@ export const Home = () => {
       <Container>
         <div className="home__text">
           <Fade cascade delay={400} damping={0.2} duration={1500} triggerOnce>
-            <h2>Welcome to our world of unique flavors and experiences!</h2>
+            <h2 className="home__text-title">
+              Welcome to our world of unique flavors span and experiences!
+            </h2>
+
+            <h2 className="home__text-titleMob">
+             <span> Welcome to our world </span>
+             <span>of unique flavors</span> 
+             <span>and experiences!</span>
+            </h2>
             <p>
               We are <span>Byron On The Rocks</span>, experts in pop-up bar
               events in the beautiful region of Northern Rivers and its
