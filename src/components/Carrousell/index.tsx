@@ -25,7 +25,7 @@ export const Carrousell = () => {
         <Splide
           options={{
             type: "loop",
-            perPage: 2,
+            perPage: 3,
             focus: "center",
             // width: "100%",
             // height: "50rem",
@@ -39,17 +39,23 @@ export const Carrousell = () => {
             speed: 400,
             rewind: true,
             gap: 0,
+            breakpoints: {
+              750: {
+                type: "loop",
+                autoplay: true,
+              },
+            },
           }}
-          onCreated={(splide: any) => {
-            // Configura opciones adicionales para dispositivos móviles
-            if (window.innerWidth <= 750) {
-              splide.options = {
-                ...splide.options,
-                autoplay: true, // Activa el autoplay
-                interval: 2200, // Intervalo en milisegundos
-              };
-            }
-          }}
+          // onCreated={(splide: any) => {
+          //   // Configura opciones adicionales para dispositivos móviles
+          //   if (window.innerWidth <= 750) {
+          //     splide.options = {
+          //       ...splide.options,
+          //       autoplay: true, // Activa el autoplay
+          //       interval: 2200, // Intervalo en milisegundos
+          //     };
+          //   }
+          // }}
         >
           <SplideSlide>
             <img
