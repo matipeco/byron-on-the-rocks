@@ -40,6 +40,16 @@ export const Carrousell = () => {
             rewind: true,
             gap: 0,
           }}
+          onCreated={(splide: any) => {
+            // Configura opciones adicionales para dispositivos móviles
+            if (window.innerWidth <= 750) {
+              splide.options = {
+                ...splide.options,
+                autoplay: true, // Activa el autoplay
+                interval: 2200, // Intervalo en milisegundos
+              };
+            }
+          }}
         >
           <SplideSlide>
             <img
