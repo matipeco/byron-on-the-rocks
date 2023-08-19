@@ -15,6 +15,7 @@ import img11 from "../../assets/carrousell/11.jpg";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { Fade } from "react-awesome-reveal";
+import { useEffect } from "react";
 // import '@splidejs/react-splide/css/skyblue';
 // import '@splidejs/react-splide/css/sea-greens';
 
@@ -38,11 +39,15 @@ export const Carrousell = () => {
             easing: "cubic-bezier(0, 0, 0.58, 1)",
             speed: 400,
             rewind: true,
+            pauseOnHover: false,
             gap: 0,
             breakpoints: {
               750: {
-                type: "loop",
+                perPage: 1,
+                // width: 200,
                 autoplay: true,
+                type: "loop",
+                pauseOnHover: false,
               },
             },
           }}
