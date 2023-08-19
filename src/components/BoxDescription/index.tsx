@@ -1,5 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-import services from "../../assets/carrousell/img6.jpg";
+import services from "../../assets/img6.jpg";
 import "./styled.scss";
 
 export const BoxDescription = () => {

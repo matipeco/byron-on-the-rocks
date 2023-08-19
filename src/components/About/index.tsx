@@ -1,12 +1,10 @@
 import { Fade } from "react-awesome-reveal";
-import { Container } from "../Container";
 import "./style.scss";
-import peter from "../../assets/aboutPeter.png";
+import peter from "../../assets/Foto PETER About.png";
 
 export const About = () => {
   return (
     <section id="About" className="about__container">
-      {/* <Container> */}
       <Fade cascade delay={350} damping={0.2} duration={800} triggerOnce>
         <div className="container">
           <Fade cascade delay={400} damping={0.2} duration={800} triggerOnce>
@@ -23,7 +21,7 @@ export const About = () => {
               </p>
               <p>
                 The possibility of bringing my ideas to different events and
-                venues excites me.{" "}
+                venues excites me.
                 <span>I want to make each occasion unique</span> and ensure
                 people enjoy special moments with a drink in hand.
               </p>
@@ -31,13 +29,12 @@ export const About = () => {
                 <span>Byron On The Rocks</span> is not just a job for me; it's a
                 lifestyle filled with joy, creativity, and dedication.
               </p>
-              <span>Cheers!</span>
+              <span className="cheers">Cheers!</span>
             </div>
             <img src={peter} alt="" width="50" height="50" />
           </Fade>
         </div>
       </Fade>
-      {/* </Container> */}
     </section>
   );
 };
