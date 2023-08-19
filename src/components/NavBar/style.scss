@@ -168,8 +168,9 @@ nav{
     top: 1rem;
     left: 1rem;
     z-index: 4;
+    // opacity: 0.5;
     // width: auto;
-    border: 1.5px solid #1F2622;
+    border: 1px solid #1F2622;
     border-radius: 4px;
     background-color: #e6e6e8;
     height: 5rem;
@@ -177,7 +178,6 @@ nav{
     img{
       height: 4.7rem;
       width: auto;
-
     }
   }
   nav{
