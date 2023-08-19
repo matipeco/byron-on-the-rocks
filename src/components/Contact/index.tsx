@@ -25,7 +25,7 @@ export const Contact = () => {
               height="500"
             />
             <div className="contact__container-icons">
-              <a href="#">
+              <a href="https://wa.link/yftv0i">
                 <img
                   className="contact__container-icons-wpp"
                   src={wpp}
@@ -34,7 +34,7 @@ export const Contact = () => {
                   height="50"
                 />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/byronontherocks/">
                 <img
                   className="contact__container-icons-insta"
                   src={insta}

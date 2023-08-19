@@ -1,11 +1,15 @@
 import "./styled.scss";
-import img1 from "../../assets/carrousell/img1.jpg";
-import img2 from "../../assets/carrousell/img2.jpg";
-import img3 from "../../assets/carrousell/img3.jpg";
-import img4 from "../../assets/carrousell/img4.jpg";
-import img5 from "../../assets/carrousell/img5.jpg";
-import img6 from "../../assets/carrousell/img6.jpg";
-import img7 from "../../assets/carrousell/img7.jpg";
+import img1 from "../../assets/carrousell/1.jpg";
+import img2 from "../../assets/carrousell/2.jpg";
+import img3 from "../../assets/carrousell/3.jpg";
+import img4 from "../../assets/carrousell/4.jpg";
+import img5 from "../../assets/carrousell/5.jpg";
+import img6 from "../../assets/carrousell/6.jpg";
+import img7 from "../../assets/carrousell/7.jpg";
+import img8 from "../../assets/carrousell/8.jpg";
+import img9 from "../../assets/carrousell/9.jpg";
+import img10 from "../../assets/carrousell/10.jpg";
+import img11 from "../../assets/carrousell/11.jpg";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 //@ts-ignore
 import { Splide, SplideSlide } from "@splidejs/react-splide";
@@ -43,7 +47,7 @@ export const Carrousell = () => {
               src={img1}
               alt=""
               width="600"
-              height="300"
+              height="400"
             />
           </SplideSlide>
           <SplideSlide>
@@ -52,7 +56,7 @@ export const Carrousell = () => {
               src={img2}
               alt=""
               width="600"
-              height="300"
+              height="400"
             />
           </SplideSlide>
           <SplideSlide>
@@ -61,7 +65,7 @@ export const Carrousell = () => {
               src={img3}
               alt=""
               width="600"
-              height="300"
+              height="400"
             />
           </SplideSlide>
           <SplideSlide>
@@ -70,7 +74,7 @@ export const Carrousell = () => {
               src={img4}
               alt=""
               width="600"
-              height="300"
+              height="400"
             />
           </SplideSlide>
 
@@ -80,7 +84,7 @@ export const Carrousell = () => {
               src={img5}
               alt=""
               width="600"
-              height="300"
+              height="400"
             />
           </SplideSlide>
           <SplideSlide>
@@ -89,7 +93,7 @@ export const Carrousell = () => {
               src={img6}
               alt=""
               width="600"
-              height="300"
+              height="400"
             />
           </SplideSlide>
 
@@ -99,7 +103,43 @@ export const Carrousell = () => {
               src={img7}
               alt=""
               width="600"
-              height="300"
+              height="750"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img8}
+              alt=""
+              width="600"
+              height="750"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img9}
+              alt=""
+              width="600"
+              height="400"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img10}
+              alt=""
+              width="600"
+              height="400"
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <img
+              className="slide-img"
+              src={img11}
+              alt=""
+              width="600"
+              height="400"
             />
           </SplideSlide>
         </Splide>
