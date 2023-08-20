@@ -7,16 +7,16 @@ export const Home = () => {
   return (
     <header id="Home" className="home__container">
       <Container>
-        <div className="home__text">
-          <Fade cascade delay={400} damping={0.2} duration={1500} triggerOnce>
+        <Fade cascade delay={400} damping={0.2} duration={1500} triggerOnce>
+          <div className="home__text">
             <h2 className="home__text-title">
               Welcome to our world of unique flavors span and experiences!
             </h2>
 
             <h2 className="home__text-titleMob">
-             <span> Welcome to our world </span>
-             <span>of unique flavors</span> 
-             <span>and experiences!</span>
+              <span> Welcome to our world </span>
+              <span>of unique flavors</span>
+              <span>and experiences!</span>
             </h2>
             <p>
               We are <span>Byron On The Rocks</span>, experts in pop-up bar
@@ -24,8 +24,8 @@ export const Home = () => {
               surroundings.
             </p>
             <div className="scrollAuto" id="Description"></div>
-          </Fade>
-        </div>
+          </div>
+        </Fade>
 
         <a className="home__button" href="#Description">
           Explore
