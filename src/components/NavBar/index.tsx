@@ -78,38 +78,38 @@ export const NavBar = () => {
       </button>
       <nav className={scrolledDown ? "scrolled" : ""} id="nav">
         <Container>
-          {/* <Fade delay={100} direction="down"> */}
-          {navMobile && (
-            <div className="btn-close-container">
-              <button className="btn-close" onClick={(ev) => closeNav(ev)}>
-                <img src={close} alt="" width="50" height="50" />
-              </button>
-            </div>
-          )}
-          <a href="#" id="logo">
-            <img
-              className="logo"
-              src={logo}
-              alt="logo"
-              width={logoSize}
-              height={logoSize}
-            />
-          </a>
-          <ul>
-            <li className="nav__list-item">
-              <a href="#Home">Home</a>
-            </li>
-            <li className="nav__list-item">
-              <a href="#OurServices">Our Services</a>
-            </li>
-            <li className="nav__list-item">
-              <a href="#About">About</a>
-            </li>
-            <li className="nav__list-item">
-              <a href="#Contact">Contact</a>
-            </li>
-          </ul>
-          {/* </Fade> */}
+          <Fade delay={100} direction="down">
+            {navMobile && (
+              <div className="btn-close-container">
+                <button className="btn-close" onClick={(ev) => closeNav(ev)}>
+                  <img src={close} alt="" width="50" height="50" />
+                </button>
+              </div>
+            )}
+            <a href="#" id="logo">
+              <img
+                className="logo"
+                src={logo}
+                alt="logo"
+                width={logoSize}
+                height={logoSize}
+              />
+            </a>
+            <ul>
+              <li className="nav__list-item">
+                <a href="#Home">Home</a>
+              </li>
+              <li className="nav__list-item">
+                <a href="#OurServices">Our Services</a>
+              </li>
+              <li className="nav__list-item">
+                <a href="#About">About</a>
+              </li>
+              <li className="nav__list-item">
+                <a href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </Fade>
         </Container>
       </nav>
     </>
