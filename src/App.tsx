@@ -1,6 +1,6 @@
 import { About } from "./components/About";
 import { BoxDescription } from "./components/BoxDescription";
-import { Carrousell } from "./components/Carrousell";
+// import { Carrousell } from "./components/Carrousell";
 import { Contact } from "./components/Contact";
 import { Description } from "./components/Description";
 // import { Footer } from "./components/Footer";
@@ -17,7 +17,7 @@ function App() {
         <Description />
         <BoxDescription />
         <OurServices />
-        <Carrousell />
+        {/* <Carrousell /> */}
         <About />
         <Contact />
       </main>
