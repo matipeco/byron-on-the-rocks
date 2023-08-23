@@ -25,7 +25,7 @@ export const Contact = () => {
               height="500"
             />
             <div className="contact__container-icons">
-              <a href="https://wa.link/yftv0i">
+              <a href="https://wa.link/ciqerc">
                 <img
                   className="contact__container-icons-wpp"
                   src={wpp}
