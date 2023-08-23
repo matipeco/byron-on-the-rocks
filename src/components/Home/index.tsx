@@ -14,9 +14,8 @@ export const Home = () => {
             </h2>
 
             <h2 className="home__text-titleMob">
-              <span> Welcome to our world </span>
-              <span>of unique flavors</span>
-              <span>and experiences!</span>
+              <span> Welcome to our world of </span>
+              <span>unique flavors and experiences!</span>
             </h2>
             <p>
               We are <span>Byron On The Rocks</span>, experts in pop-up bar

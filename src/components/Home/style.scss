@@ -116,7 +116,7 @@
     &__container{
       min-height: 100vh;
       position: relative;
-      background-image: url("../../assets/edit-mobile.png");
+      background-image: url("../../assets/carrousell/1.jpg");
       background-size:  cover; 
       background-position: center;
       background-repeat: no-repeat;
@@ -150,7 +150,7 @@
       }
     }
     &__text{
-      margin-left: 0;
+      margin-left: 5rem;
       // min-height: 100vh;
       display: flex;
       align-items: center;
@@ -171,7 +171,7 @@
       white-space: inherit;
       padding-left: 0;
       margin-right: 0rem;
-      margin-left: 0;
+      //margin-left: 0;
       // background-color: yellow;
       // height: 100vh;
       .home__text-title{
@@ -185,7 +185,6 @@
         // background-color: red;
         line-height: 2.8rem;
         // gap
-        margin-left: 0rem;
         padding-bottom: 0.5rem;
         span{
           font-size: 3rem;
@@ -194,12 +193,13 @@
         }
       }
       p{
+        margin-left: 5rem;
         display: block;
         line-height: 2.5rem;
         font-weight: 500;
         margin-top: 1rem;
         font-family: 'Galano Grotesque', sans-serif;
-        font-size: 2.2rem;
+        font-size: 2rem;
         width: 75%;
         margin-left: 0rem;
         // transform: translateX(-50);// text-align: center;
@@ -247,19 +247,17 @@
 @media(max-width: 450px){
   .home{
     &__container{
-      min-height: 100vh;
+      min-height: 110vh;
       position: relative;
-      background-image: url("../../assets/edit-mobile.png");
+      background-image: url("../../assets/carrousell/1.jpg");
       background-size:  cover; 
       background-position: center;
       background-repeat: no-repeat;
       animation: aparecer 1s ease;
+      margin-top: -5.5rem;
       .container{
-        // background-color: violet;
         display: flex;
-        
         gap: 0;
-
       }      
       &:after {
         content: "";
@@ -283,10 +281,10 @@
       }
     }
     &__text{
-      margin-left: 0;
+      margin-left: 5rem;
       // min-height: 100vh;
       display: flex;
-      align-items: center;
+      align-items: start;
       justify-content: start;
       width: 100%;
       height: 55vh;
@@ -314,33 +312,34 @@
         display: block;
         // letter-spacing: 0px;
         // font-weight: 700;
-        width: 80%;
+        width: 100%;
         // background-color: red;
         line-height: 2.8rem;
         // gap
-        margin-left: 0rem;
+        margin-left: 2.5rem;
         padding-bottom: 0.5rem;
         span{
-          font-size: 3rem;
+          width: 90%;
+          font-size: 2.2rem;
           font-family: 'Galano Grotesque Alt', sans-serif;
           display: block;
         }
       }
       p{
         display: block;
-        line-height: 2.5rem;
+        line-height: 2.2rem;
         font-weight: 500;
         margin-top: 1rem;
         font-family: 'Galano Grotesque', sans-serif;
-        font-size: 2rem;
-        width: 80%;
-        margin-left: 0rem;
+        font-size: 1.6rem;
+        width: 65%;
+        margin-left: 2.5rem;
         // transform: translateX(-50);// text-align: center;
         // background-color: red;
         // margin: 0;
         padding-right: 0rem;
         span{
-          font-size: 2rem;
+          font-size: 1.6rem;
           font-weight: 600;
           display: inline;
         }
