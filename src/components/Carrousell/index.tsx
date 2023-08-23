@@ -15,7 +15,6 @@ import img11 from "../../assets/carrousell/11.jpg";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { Fade } from "react-awesome-reveal";
-import { useEffect } from "react";
 // import '@splidejs/react-splide/css/skyblue';
 // import '@splidejs/react-splide/css/sea-greens';
 
