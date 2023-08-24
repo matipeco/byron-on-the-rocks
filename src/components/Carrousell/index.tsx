@@ -25,13 +25,13 @@ export const Carrousell = () => {
         <Splide
           options={{
             type: "loop",
+            autoplay: true,
             perPage: 3,
             focus: "center",
             // width: "100%",
             // height: "50rem",
             fixedWidth: "auto",
             fixedHeight: "30rem",
-            autoplay: true,
             interval: 2200,
             trimSpace: false,
             drag: true,
