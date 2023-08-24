@@ -23,12 +23,11 @@ export const Home = () => {
               surroundings.
             </p>
             <div className="scrollAuto" id="Description"></div>
+            <a className="home__button" href="#Description">
+              Explore
+            </a>
           </div>
         </Fade>
-
-        <a className="home__button" href="#Description">
-          Explore
-        </a>
       </Container>
     </header>
   );

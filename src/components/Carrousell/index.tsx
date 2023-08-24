@@ -15,10 +15,29 @@ import img11 from "../../assets/carrousell/11.jpg";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { Fade } from "react-awesome-reveal";
+import { useEffect, useState } from "react";
 // import '@splidejs/react-splide/css/skyblue';
 // import '@splidejs/react-splide/css/sea-greens';
 
 export const Carrousell = () => {
+  const [screenWidth, setScreenWidth] = useState(
+    window.innerWidth || document.documentElement.clientWidth
+  );
+
+  useEffect(() => {
+    const updateScreenWidth = () => {
+      setScreenWidth(window.innerWidth || document.documentElement.clientWidth);
+    };
+
+    // Agregar el event listener al evento resize
+    window.addEventListener("resize", updateScreenWidth);
+
+    // Limpieza del event listener cuando el componente se desmonta
+    return () => {
+      window.removeEventListener("resize", updateScreenWidth);
+    };
+  }, []);
+
   return (
     <section className="container__carrousell">
       <Fade delay={500} damping={0.2} duration={1200} triggerOnce>
@@ -50,25 +69,18 @@ export const Carrousell = () => {
               },
             },
           }}
-          onCreated={(splide: any) => {
-            if (window.innerWidth <= 750) {
-              splide.options = {
-                ...splide.options,
-                autoplay: true, // Activa el autoplay
-                interval: 2200, // Intervalo en milisegundos
-              };
-            }
-          }}
         >
-          <SplideSlide>
-            <img
-              className="slide-img"
-              src={img1}
-              alt=""
-              width="600"
-              height="400"
-            />
-          </SplideSlide>
+          {screenWidth > 750 && (
+            <SplideSlide>
+              <img
+                className="slide-img"
+                src={img1}
+                alt=""
+                width="600"
+                height="400"
+              />
+            </SplideSlide>
+          )}
           <SplideSlide>
             <img
               className="slide-img"
