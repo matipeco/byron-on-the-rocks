@@ -78,14 +78,14 @@ export const NavBar = () => {
       </button>
       <nav className={scrolledDown ? "scrolled" : ""} id="nav">
         <Container>
+          {navMobile && (
+            <div className="btn-close-container">
+              <button className="btn-close" onClick={(ev) => closeNav(ev)}>
+                <img src={close} alt="" width="50" height="50" />
+              </button>
+            </div>
+          )}
           <Fade delay={100} direction="down" triggerOnce>
-            {navMobile && (
-              <div className="btn-close-container">
-                <button className="btn-close" onClick={(ev) => closeNav(ev)}>
-                  <img src={close} alt="" width="50" height="50" />
-                </button>
-              </div>
-            )}
             <a href="#" id="logo">
               <img
                 className="logo"
