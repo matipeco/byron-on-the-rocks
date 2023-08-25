@@ -7,9 +7,9 @@ export const About = () => {
     <section id="About" className="about__container">
       <Fade cascade delay={350} damping={0.2} duration={800} triggerOnce>
         <div className="container">
-          <Fade cascade delay={400} damping={0.2} duration={800} triggerOnce>
-            <div className="container-text">
-              <h3 className="about__title">About Us</h3>
+          <div className="container-text">
+            <h3 className="about__title">About Us</h3>
+            <Fade cascade delay={400} damping={0.2} duration={800} triggerOnce>
               <p>
                 My name is <span>Pedro</span>. For many years I've been
                 fascinated by the world of drinks and mixology.
@@ -30,9 +30,9 @@ export const About = () => {
                 lifestyle filled with joy, creativity, and dedication.
               </p>
               <span className="cheers">Cheers!</span>
-            </div>
-            <img src={peter} alt="" width="50" height="50" />
-          </Fade>
+            </Fade>
+          </div>
+          <img src={peter} alt="" width="50" height="50" />
         </div>
       </Fade>
     </section>

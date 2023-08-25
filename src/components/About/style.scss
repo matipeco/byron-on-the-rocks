@@ -39,7 +39,7 @@
         img{
           // outline: 2px solid yellow;
           width: 35rem;
-          height: auto;
+          height: 55rem;
         }
       }
 
@@ -61,7 +61,7 @@
 @media (max-width:750px){
   .about{
     &__container{
-      padding: 0 2rem;
+      padding: 2rem 2rem 0 2.5rem;
       background-color: #e6e6e8;
       // min-height: 98vh;
       padding-bottom: 0rem;
@@ -73,20 +73,19 @@
       // outline: 1px solid red;
       // margin-left: 1rem;
       // width: 75%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-top: 4rem;
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
       width: 100%; 
       .container-text{
         // background-color: red;
         span{
           margin-top: 2rem;
-          font-size: 2rem;
+          font-size: 1.6rem;
           font-weight: 600;
         }
         .cheers{
-          margin-top: 2rem;
+          margin-top: 1.6rem;
           display: block;
         }
       }
@@ -107,16 +106,17 @@
       }
       h3{
         // outline: 1px solid yellow;
-        font-size: 4rem;
-        margin-bottom: 2rem;
-        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-align: left;
         width: 100%;
       }
       p{
-        text-align: center;
+        line-height: 2.2rem;
+        text-align: left;
         margin: 0;
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
       }
     }
   }
