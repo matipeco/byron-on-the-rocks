@@ -71,12 +71,17 @@
         width: 90%;
         height: 15rem;
       }
+      #btnForm[value] {
+        text-align: center;
+      }
       :last-child{
         height: 4rem;
         display: flex;
         align-items: center;
+        
         text-align: center;
         border: 2px solid #1F2622;
+        border-radius: 4px;
         font-size: 1.4rem;
         font-weight: 600;
         // margin-top: 2rem;
