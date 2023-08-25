@@ -60,12 +60,30 @@
       gap: 2rem;
       // padding: 2rem 0;
       input{
-        width: 95%;
-        
+        font-size: 1.6rem;
+        width: 90%;
+        height: 4rem;
       }
       textarea{
-        width: 95%;
+        font-size: 1.6rem;
+        width: 90%;
         height: 15rem;
+      }
+      :last-child{
+        display: flex;
+        align-items: center;
+        border: 2px solid #1F2622;
+        font-size: 1.4rem;
+        font-weight: 600;
+        // margin-top: 2rem;
+        text-transform: uppercase;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+        transition:background-color 300ms ease-in-out;
+        cursor: pointer;
+        // width: 25%;
+        height: 100%;
+        background-color:  #1f262244;
+        letter-spacing: 2px;
       }
     }
   }

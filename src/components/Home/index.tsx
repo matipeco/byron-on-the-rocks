@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <header id="Home" className="home__container">
       <Container>
-        <Fade cascade delay={400} damping={0.2} duration={1500} triggerOnce>
+        <Fade cascade triggerOnce>
           <div className="home__text">
             <h2 className="home__text-title">
               Welcome to our world of unique flavors span and experiences!
