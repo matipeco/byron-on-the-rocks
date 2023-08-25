@@ -29,6 +29,8 @@
       display: none;
     }
     :last-child{
+      height: 5rem;
+      text-align: center;
       // display: none;
       border: 2px solid #1F2622;
       font-size: 1.8rem;
@@ -70,6 +72,7 @@
         height: 15rem;
       }
       :last-child{
+        height: 4rem;
         display: flex;
         align-items: center;
         border: 2px solid #1F2622;
