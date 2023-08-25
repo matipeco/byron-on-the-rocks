@@ -8,25 +8,28 @@ export const Description = () => {
       <img src={especias} alt="" width="50" height="50" />
 
       <div className="description__text">
-        <Fade cascade triggerOnce>
-          <p className="description__text1">
-            Our talented bartenders specialize in{" "}
-          </p>
-          <span>bar catering service in all kind of events</span>
-          <p className="description__text2">
-            ranging from weddings, birthdays celebrations, corporate events, or
-            any other private gathering.
-          </p>
+      <Fade cascade triggerOnce>
+        
+        <p className="description__text1">
+          Our talented bartenders specialize in{" "}
+        </p>
+        <span>bar catering service in all kind of events</span>
+        <p className="description__text2">
+          ranging from weddings, birthdays celebrations, corporate events, or
+          any other private gathering.
+        </p>
+        </Fade>
 
-          <div className="description__textMob">
+        <div className="description__textMob">
+          <Fade cascade triggerOnce>
             <p>
               Our talented bartenders specialize in{" "}
               <span>bar catering service in all kind of events</span>ranging
               from weddings, birthdays celebrations, corporate events, or any
               other private gathering.
             </p>
-          </div>
-        </Fade>
+          </Fade>
+        </div>
       </div>
     </section>
   );
