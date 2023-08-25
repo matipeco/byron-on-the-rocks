@@ -16,20 +16,16 @@ export const OurServices = () => {
           width="50"
           height="50"
         />
-        <Fade
-          className="fadeOurServices"
-          delay={400}
-          damping={0.2}
-          duration={1300}
-          triggerOnce
-        >
-          <p className="ourservices__container-title">
-            At <span>Byron On The Rocks</span>, we take pride in offering
-            customized beverage packages that suit any venue.
-          </p>
+        <Fade delay={400} damping={0.2} duration={1100} triggerOnce>
+          <div className="fadeOurServices">
+            <p className="ourservices__container-title">
+              At <span>Byron On The Rocks</span>, we take pride in offering
+              customized beverage packages that suit any venue.
+            </p>
+          </div>
         </Fade>
         <Container>
-          <Fade delay={400} damping={0.2} duration={1350} triggerOnce cascade>
+          <Fade delay={500} damping={0.2} duration={1350} triggerOnce cascade>
             <div className="ourservices__container-box1">
               <p>
                 From simple packages featuring a selection of beers, wines, and
@@ -40,7 +36,7 @@ export const OurServices = () => {
               <img src={box1} alt="" width="500" height="500" />
             </div>
           </Fade>
-          <Fade delay={400} damping={0.2} duration={1500} triggerOnce>
+          <Fade delay={400} damping={0.2} duration={1300} triggerOnce>
             <div className="ourservices__container-box2">
               <img src={box2} alt="" width="500" height="500" />
               <p>

@@ -13,6 +13,7 @@ nav{
   z-index: 4;
   &.scrolled {
     backdrop-filter: blur(5px);
+    -webkit-background-filter:blur(5px)
   }
   &>div{
     display: flex;
@@ -128,9 +129,6 @@ nav{
         text-shadow: none;
         text-transform: uppercase;
       }
-      li.nav__list-item + li.nav__list-item {
-        // margin-top: 4vw; /* Espaciado horizontal */
-      }
       
     }
     .btn-close-container{
@@ -229,12 +227,14 @@ nav{
         font-size: 2rem;
         text-shadow: none;
         text-transform: uppercase;
+        width: 100%;
+        text-align: center;
       }
     }
     .btn-close-container{
       width: 100%;
       padding-top: 2rem;
-      padding-right: 4rem;
+      padding-right: 2rem;
     }
     .btn-close{
       display: block;

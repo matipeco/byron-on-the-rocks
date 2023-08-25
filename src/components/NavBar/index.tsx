@@ -78,7 +78,7 @@ export const NavBar = () => {
       </button>
       <nav className={scrolledDown ? "scrolled" : ""} id="nav">
         <Container>
-          <Fade delay={100} direction="down">
+          <Fade delay={100} direction="down" triggerOnce>
             {navMobile && (
               <div className="btn-close-container">
                 <button className="btn-close" onClick={(ev) => closeNav(ev)}>
