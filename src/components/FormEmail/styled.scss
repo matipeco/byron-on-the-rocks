@@ -75,6 +75,7 @@
         height: 4rem;
         display: flex;
         align-items: center;
+        text-align: center;
         border: 2px solid #1F2622;
         font-size: 1.4rem;
         font-weight: 600;
@@ -84,7 +85,6 @@
         transition:background-color 300ms ease-in-out;
         cursor: pointer;
         // width: 25%;
-        height: 100%;
         background-color:  #1f262244;
         letter-spacing: 2px;
       }
