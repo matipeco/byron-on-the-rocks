@@ -40,7 +40,7 @@ export const Carrousell = () => {
 
   return (
     <section className="container__carrousell">
-      <Fade delay={500} damping={0.2} duration={1200} triggerOnce>
+      <Fade cascade triggerOnce>
         <Splide
           options={{
             type: "loop",
