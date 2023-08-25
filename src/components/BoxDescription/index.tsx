@@ -6,7 +6,7 @@ export const BoxDescription = () => {
   return (
     <div className="description__box">
       <img src={services} alt="" width="50" height="50" />
-      <Fade delay={100} direction="right" cascade triggerOnce>
+      <Fade delay={1000} direction="right" cascade triggerOnce>
         <p>
           With much love and dedication, we will adapt our service to match your
           preferences, ensuring
