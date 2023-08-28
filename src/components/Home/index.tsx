@@ -1,4 +1,3 @@
-// import background from "../../assets/edit.png"
 import { Container } from "../Container";
 import "./style.scss";
 import { Fade } from "react-awesome-reveal";
