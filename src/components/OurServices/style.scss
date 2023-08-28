@@ -8,7 +8,6 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      // text-align: center;
     }
     &-especias{
       position: absolute;
@@ -18,18 +17,14 @@
       height: auto;
       object-fit: cover;
       filter: hue-rotate(20deg);
-
     }
     .fadeOurServices{
       display: flex;
       justify-content: center;
-      // background-color: rebeccapurple;
     }
 
     &-title{
-      // margin-left: auto;
       width: 70%;
-      // background-color: red;
       padding: 15rem 0 15rem;
       font-size: 3.5rem;
       text-align: center;
@@ -52,33 +47,19 @@
     &-box1{
       width: 100%;
       display: flex;
-      // justify-content: center;
-      // align-items: center;
-      // margin-top: 8rem;
-      
       font-family: 'Galano Grotesque', sans-serif;
       position: relative;
      
       p{
         font-size: 3rem;
-        // margin-left: 2rem;
         margin-right: 2rem;
-        // text-align: justify;
         line-height: 5rem;
         width: 80rem;
-        // background-color: red;
-      //  position: relative;
       }
       img{
-        // position: absolute;
-        // top: 0;
-        // right: 0;
         object-fit: cover;
-        // margin-top: 1rem;
         width: 40rem;
         height: auto;
-        // box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.9);
-        // display: inline-block;
         box-shadow: -3px 0 3px -3px rgba(0, 0, 0, 0.5), 
         3px 0 3px -3px rgba(0, 0, 0, 0.5);
       }
@@ -89,37 +70,24 @@
     &-box2{
       width: 100%;
       display: flex;
-      // justify-content: center;
-      // align-items: center;
       margin-top: 5rem;
-      // margin-bottom: 5rem;
       font-family: 'Galano Grotesque', sans-serif;
       position: relative;
       padding-bottom: 12rem;
       p{
         font-size: 3rem;
-        // margin-left: 2rem;
         margin-left: 2rem;
-        // text-align: justify;
         line-height: 5rem;
         width: 70rem;
-        // background-color: red;
-      //  position: relative;
       span{
         font-size: 3rem;
         font-weight: 600;
       }
       }
       img{
-        // position: absolute;
-        // top: 0;
-        // right: 0;
         object-fit: cover;
-        // margin-top: 1rem;
         width: 50rem;
         height: auto;
-        // box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.9);
-        // display: inline-block;
         box-shadow: -3px 0 3px -3px rgba(0, 0, 0, 0.5), 
         3px 0 3px -3px rgba(0, 0, 0, 0.5);
       }
@@ -153,14 +121,10 @@
       .fadeOurServices{
         display: flex;
         justify-content: center;
-        // background-color: rebeccapurple;
       }
   
       &-title{
-        // z-index: 4;
-        // margin-left: auto;
         width: 90%;
-        // background-color: red;
         padding: 0rem 0 3rem;
         font-size: 1.6rem;
         text-align: center;
@@ -187,7 +151,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        // margin-top: 8rem;
         flex-direction: column-reverse;
         font-family: 'Galano Grotesque', sans-serif;
         position: relative;
@@ -202,20 +165,11 @@
           line-height: 2.2rem;
           width: 100%;
           padding:0 2rem 0 2.5rem;
-
-          // background-color: red;
-        //  position: relative;
         }
         img{
-          // position: absolute;
-          // top: 0;
-          // right: 0;
           object-fit: cover;
-          // margin-left: 28%;
           width: 100%;
           height: auto;
-          // box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.9);
-          // display: inline-block;
           box-shadow: none;
         }
       }
@@ -225,8 +179,6 @@
       &-box2Mob{
         display: flex;
         width: 100%;
-        // display: none;
-        // justify-content: center;
         margin-right: 0;
         align-items: center;
         flex-direction: column;
@@ -235,10 +187,6 @@
         font-family: 'Galano Grotesque', sans-serif;
         position: relative;
         .text-container{
-          // display: flex;
-          // background-color: red;
-          // align-items: center;
-          // flex-direction: column;
           font-size: 1.6rem;
           margin-top: 1rem;
           padding: 0 2rem 0 2.5rem;
@@ -246,13 +194,10 @@
           line-height: 2.2rem;
           width: 100%;
           font-size: 1.6rem;
-          // background-color: red;
-          //  position: relative;
           p{
             width: 100%;
             font-size: 1.6rem;
             margin-top: 0.5rem;
-            // border: 1px solid green;
           }
           span{
             display: inline;
@@ -262,17 +207,9 @@
         }
         
         img{
-          // position: absolute;
-          // top: 0;
-          // right: 0;
           object-fit: cover;
-          // margin-top: 1rem;
           width:100%;
           height: auto;
-          // box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.9);
-          // display: inline-block;
-          // box-shadow: -6px 0 6px -6px rgba(0, 0, 0, 0.9), 
-          // 6px 0 6px -6px rgba(0, 0, 0, 0.9);
         }
       }
     }
