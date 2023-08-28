@@ -16,8 +16,6 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { Fade } from "react-awesome-reveal";
 import { useEffect, useState } from "react";
-// import '@splidejs/react-splide/css/skyblue';
-// import '@splidejs/react-splide/css/sea-greens';
 
 export const Carrousell = () => {
   const [screenWidth, setScreenWidth] = useState(
@@ -29,10 +27,8 @@ export const Carrousell = () => {
       setScreenWidth(window.innerWidth || document.documentElement.clientWidth);
     };
 
-    // Agregar el event listener al evento resize
     window.addEventListener("resize", updateScreenWidth);
 
-    // Limpieza del event listener cuando el componente se desmonta
     return () => {
       window.removeEventListener("resize", updateScreenWidth);
     };
@@ -47,8 +43,6 @@ export const Carrousell = () => {
             autoplay: true,
             perPage: 3,
             focus: "center",
-            // width: "100%",
-            // height: "50rem",
             fixedWidth: "auto",
             fixedHeight: "30rem",
             interval: 2200,
@@ -62,7 +56,6 @@ export const Carrousell = () => {
             breakpoints: {
               750: {
                 perPage: 1,
-                // width: 200,
                 autoplay: true,
                 type: "loop",
                 pauseOnHover: false,

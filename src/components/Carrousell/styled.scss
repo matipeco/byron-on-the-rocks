@@ -2,22 +2,13 @@
   padding: 0 0 0;
   background-color: rgba(230, 230, 232, 1);
   position: relative;
-    // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // height: 70rem;
 }
 
 .carrousell__img{
   position: absolute;
   top:-7rem;
-  // left: 0;
-  // width: 50%;
-  // // overflow: hidden;
-  // height: auto;
   width: 100%;
   height: 40rem;
-  // margin-bottom: 10rem;
   object-fit: cover;
 }
 
@@ -27,10 +18,8 @@
 
 .splide {
   display: flex;
-  // outline:1px solid rgb(0, 255, 174);
   background-color: rgba(230, 230, 232, 1);
   width: 100%;
-  // flex-wrap: wrap;
   height: 40rem;
   &::after{
     position: absolute;
@@ -56,22 +45,16 @@
   } 
 }
 .splide__slide:not(.is-active) .slide-img {
-  // opacity: 0.1;
   filter: brightness(0.3);
-  // filter: blur(2px); 
-  /* Aplicar desenfoque en las diapositivas no activas */
   transition: 300ms ease-out;
 }
 
 .splide__slide.is-active .slide-img {
   transition: 300ms ease-out;
   filter: none; 
-  // box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.3);
-  // opacity: 1;
-  filter: none; /* Quitar el desenfoque en la diapositiva activa */
+  filter: none;
 }
 
-/* Ajuste adicional para evitar un desplazamiento de página al hacer clic en flechas */
 .splide__arrow {
   z-index: 1;
 }
