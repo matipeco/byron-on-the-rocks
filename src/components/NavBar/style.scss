@@ -2,11 +2,6 @@
  display: none;
 }
 
-// .btn-menu{
-//   display: none;
-// }
-
-
 nav{
   position: fixed;
   width: 100%;
@@ -22,22 +17,17 @@ nav{
   }
   
   ul{
-    // transition: margin 0.9s ease-out; 
     margin-top: 4rem;
     min-height: 6rem;
     display: flex;
-    // align-items: center;
     justify-content: end;
     list-style: none;
     font-weight: 700;
-    //background-color: red;
     gap: 7rem;
     color: #1F2622;
     a{
       padding-bottom: .5rem;
-      // letter-spacing: 1px;
       font-size: 2rem;
-      //text-transform: uppercase;  
       text-decoration: none;
       color: inherit;
       text-shadow: 1px 1px 3.5px rgba(255, 255, 255, 0.7);
@@ -54,10 +44,7 @@ nav{
     }
   }
   .logo{
-    // border: 1px solid red;
     transition: .6s ease;
-    // position: absolute;
-    // display: flex;
   }
 }
 @media (max-width: 750px){
@@ -66,8 +53,6 @@ nav{
     top: 1rem;
     left: 1rem;
     z-index: 4;
-    // width: 50%;
-    // height: auto;
     border: 1.5px solid #1F2622;
     border-radius: 4px;
     background-color: #e6e6e8;
@@ -98,7 +83,6 @@ nav{
       flex-direction: column;
       display: flex;
       
-      // background-color: red;
       flex-wrap: nowrap;
     }
     .css-n5xi40{
@@ -114,16 +98,8 @@ nav{
       justify-content:start;
       align-items: center;
       flex-direction: column;
-      // flex-wrap: mpwrap;
       gap: 0;
-      // gap:calc(1vh + 20vw);;
-      // background-color: rebeccapurple;
       width: 100%;
-      // height: auto;
-      li.nav__list-item {
-        margin: 0 0 10vh 0; /* Espaciado vertical en unidades de vista de altura (vh) */
-      }
-      // padding-bottom: 10rem;
       a{
         font-size: 1.8rem;
         text-shadow: none;
@@ -160,104 +136,3 @@ nav{
 
   }
 }
-
-// @media (max-height:700px){
-//   .btn-menu{
-//     position: fixed;
-//     top: 1rem;
-//     left: 1rem;
-//     z-index: 4;
-//     // opacity: 0.5;
-//     // width: auto;
-//     border: 1px solid #1F2622;
-//     border-radius: 4px;
-//     background-color: #e6e6e8;
-//     height: 5rem;
-//     width: auto;
-//     img{
-//       height: 4.7rem;
-//       width: auto;
-//     }
-//   }
-//   nav{
-//     display: flex;
-//     transform: scaleX(0);
-//     background-color: #e6e6e8;
-//     transform-origin: center left;
-//     transition: 400ms ease-in-out;
-//     flex-wrap: none;
-//     top: 0;
-//     left: 0;
-//     bottom: 0;
-//     right: 0;
-
-//     &>div{
-//       justify-content: start;
-//     }
-//     .container{
-//       flex-direction: column;
-//       display: flex;
-      
-//       // background-color: red;
-//       flex-wrap: nowrap;
-//     }
-//     .css-n5xi40{
-//       width: 100%;
-//       display: flex;
-//       align-items: center;
-//       justify-content: center;
-//     }
-    
-//     ul{
-//       margin-top: 2rem;
-//       display: flex;
-//       justify-content:start;
-//       align-items: center;
-//       flex-direction: column;
-//       // flex-wrap: mpwrap;
-//       gap: 0;
-//       // gap:calc(1vh + 20vw);;
-//       // background-color: rebeccapurple;
-//       width: 100%;
-//       // height: auto;
-//       li.nav__list-item {
-//         margin: 0 0 10vh 0; /* Espaciado vertical en unidades de vista de altura (vh) */
-//       }
-//       // padding-bottom: 10rem;
-//       a{
-//         font-size: 2rem;
-//         text-shadow: none;
-//         text-transform: uppercase;
-//         width: 100%;
-//         text-align: center;
-//       }
-//     }
-//     .btn-close-container{
-//       width: 100%;
-//       padding-top: 2rem;
-//       padding-right: 2rem;
-//     }
-//     .btn-close{
-//       display: block;
-//       background-color: transparent;
-//       border: none;
-//       width: 100%;
-//       cursor: pointer;
-//       // text-align: end;
-//       margin-left: 45%;
-//       img{
-//         width: 90%;
-//       }
-//     }
-//     .logo{
-//       width: 15rem;
-//       height: auto;
-//       margin-top: -4rem;
-//       object-fit: cover;
-//     }
-//   }
-//   .open{
-//     transform: scaleX(1);
-
-//   }
-// }
