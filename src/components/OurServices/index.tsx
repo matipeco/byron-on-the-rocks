@@ -28,10 +28,9 @@ export const OurServices = () => {
           <Fade delay={500} damping={0.2} duration={1350} triggerOnce cascade>
             <div className="ourservices__container-box1">
               <p>
-                From simple packages featuring a selection of beers, wines, and
-                champagnes; to delving into the world of expertly crafted
-                cocktails, mocktails, and homemade lemonade. We have the perfect
-                beverage options to satisfy every palate.
+                {" "}
+                We have the perfect beverage options
+                <span> to satisfy every palate.</span>
               </p>
               <img src={box1} alt="" width="500" height="500" />
             </div>
@@ -57,7 +56,9 @@ export const OurServices = () => {
                   Contact us to discuss your event preferences, and let us raise
                   the bar together.
                 </p>
-                <p>Cheers to creating extraordinary moments!</p>
+                <p className="bold">
+                  Cheers to creating extraordinary moments!
+                </p>
               </div>
             </div>
           </Fade>

@@ -4,7 +4,6 @@ import wpp from "../../assets/wapp.svg";
 import mail from "../../assets/mail.svg";
 import insta from "../../assets/insta.svg";
 import phone from "../../assets/phone.svg";
-// import vaso from "../../assets/vaso.svg";
 import "./style.scss";
 import { Fade } from "react-awesome-reveal";
 
@@ -64,8 +63,3 @@ export const Contact = () => {
     </section>
   );
 };
-
-{
-  /* <p>Phone: +61 431 218 161</p>
-<p>Email: byronontherocksbar@gmail.com</p> */
-}

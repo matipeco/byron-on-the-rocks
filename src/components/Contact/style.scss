@@ -1,50 +1,35 @@
 .contact{
   &__container{
     background-color: #e6e6e8;
-    // background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow-y: hidden;
     min-height: 0rem;
-    // margin-bottom: 5rem;
     &-box{
-      // flex-direction: row-reverse;
-      // align-items: center;
-      // margin-top: -3.5rem;
-      // background-color: rgba(0, 0, 0, 0.1);
-      // padding: 0rem 15rem;
       display: flex;
       width: 100%;
       justify-content: center;
       gap: 4rem;
       overflow: hidden;
-      // background-color:yellow;
       flex-wrap: wrap;
       padding:8rem 10rem 10rem 10rem;
-      // flex-direction: column;
       h3{
         font-size: 4.5rem;
         margin-bottom: 3rem;
       }
       &>div{
-        // background-color: red;
-        // margin-top: 4rem;
-        // margin-right: 5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        // transform: translateY(10rem);
       }
     }
     &-box-2{
-      // outline: 4px solid green;
       transform: translateY(-4rem);
     }
     &-img{
       z-index: 1;
-      // border: 1px solid yellow;
       width: 30rem;
       height: auto;
       margin-bottom: 2.5rem;
@@ -55,16 +40,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      // gap: 1rem;
-      // margin-right: 1rem;
-      // background-color: red;
       width: 75%;
       height: auto;
-      // transform: translateY(-7rem);
       gap: 3rem;
       padding-top: 2.5rem;
       &-wpp{
-        // border: 1px solid red;
         width: 4.3rem;
         height: auto;
       }
@@ -101,7 +81,6 @@
   .contact{
     &__container{
       background-color: #e6e6e8;
-      // background-color: red;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -110,43 +89,29 @@
       min-height: 55rem;
 
       &-box{
-        // flex-direction: row-reverse;
-        // align-items: center;
-        // margin-top: -3.5rem;
-        // background-color: rgba(0, 0, 0, 0.1);
-        // padding: 0rem 15rem;
         display: flex;
         width: 100%;
         justify-content: center;
         gap: 4rem;
         overflow: hidden;
         flex-direction: column-reverse;
-        // background-color:yellow;
-  
         padding:0rem 10rem 10rem 10rem;
-        // flex-direction: column;
         h3{
           font-size: 3rem;
           margin-bottom: 2rem;
           margin-top: -2rem;
         }
         &>div{
-          // background-color: red;
-          // margin-top: 4rem;
-          // margin-right: 5rem;
           display: flex;
           flex-direction: column;
           align-items: center;
-          // transform: translateY(10rem);
         }
       }
       &-box-2{
-        // outline: 4px solid green;
         transform: translateY(-2rem);
       }
       &-img{
         z-index: 1;
-        // border: 1px solid yellow;
         width: 22rem;
         height: auto;
         margin-bottom: 2.5rem;
@@ -158,16 +123,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        // gap: 1rem;
-        // margin-right: 1rem;
-        // background-color: red;
         width: 80%;
         height: auto;
-        // transform: translateY(-7rem);
         gap: 1.5rem;
         padding-top: 2rem;
         &-wpp{
-          // border: 1px solid red;
           width: 3.8rem;
           height: auto;
         }
