@@ -93,7 +93,7 @@ nav{
     }
     
     ul{
-      margin-top: 5vh;
+      margin-top: -2rem;
       display: flex;
       justify-content:start;
       align-items: center;
@@ -101,6 +101,7 @@ nav{
       gap: 0;
       width: 100%;
       a{
+        margin-top: 10vh;
         font-size: 1.8rem;
         text-shadow: none;
         text-transform: uppercase;
