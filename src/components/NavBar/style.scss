@@ -93,15 +93,18 @@ nav{
     }
     
     ul{
-      margin-top: -2rem;
+      margin-top: 4rem;
+      min-height: 6rem;
       display: flex;
       justify-content:start;
       align-items: center;
       flex-direction: column;
       gap: 0;
       width: 100%;
+      li.nav__list-item {
+        margin: 0 0 10vh 0; 
+      }
       a{
-        margin-top: 10vh;
         font-size: 1.8rem;
         text-shadow: none;
         text-transform: uppercase;
