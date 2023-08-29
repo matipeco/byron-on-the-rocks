@@ -58,6 +58,7 @@
     overflow: hidden;
   
     &::after{
+      display: none;
       position: absolute;
       content: "";
       top: 0;
@@ -81,6 +82,7 @@
     }
   
     &::before{
+      display: none;
       z-index: 1;
       position: absolute;
       content: "";
@@ -94,7 +96,7 @@
     p{
       width: 80%;
       color: #1F2622;
-      margin-bottom: 4rem;
+      margin-bottom: 0rem;
       margin-left: 2rem;
       font-size: 1.6rem;
       font-family: 'Galano Grotesque Alt', sans-serif;
