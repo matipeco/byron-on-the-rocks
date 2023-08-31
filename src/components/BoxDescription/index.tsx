@@ -8,8 +8,8 @@ export const BoxDescription = () => {
   return (
     <div className="description__box">
       {/* <img src={services} alt="" width="50" height="50" /> */}
-      {/* <img src={services2} alt="" width="50" height="50" /> */}
-      <img src={services3} alt="" width="50" height="50" />
+      <img src={services2} alt="" width="50" height="50" />
+      {/* <img src={services3} alt="" width="50" height="50" /> */}
       <Fade direction="right" duration={2000} triggerOnce>
         <p>
           With much love and dedication, we will adapt our service to match your
