@@ -7,8 +7,8 @@ import "./styled.scss";
 export const BoxDescription = () => {
   return (
     <div className="description__box">
-      {/* <img src={services} alt="" width="50" height="50" /> */}
-      <img src={services2} alt="" width="50" height="50" />
+      <img className="img" src={services} alt="" width="50" height="50" />
+      <img className="imgMob" src={services2} alt="" width="50" height="50" />
       {/* <img src={services3} alt="" width="50" height="50" /> */}
       <Fade direction="right" duration={2000} triggerOnce>
         <p>
