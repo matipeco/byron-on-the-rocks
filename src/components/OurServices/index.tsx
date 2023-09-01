@@ -26,11 +26,20 @@ export const OurServices = () => {
         </Fade>
         <Container>
           <Fade delay={500} damping={0.2} duration={1350} triggerOnce cascade>
-            <div className="ourservices__container-box1">
+            <div className="ourservices__container-box1Mob">
               <p>
                 {" "}
                 We have the perfect beverage options
                 <span> to satisfy every palate.</span>
+              </p>
+              <img src={box1} alt="" width="500" height="500" />
+            </div>
+            <div className="ourservices__container-box1">
+              <p>
+                From simple packages featuring a selection of beers, wines, and
+                champagnes; to delving into the world of expertly crafted
+                cocktails, mocktails, and homemade lemonade. We have the perfect
+                beverage options to satisfy every palate.
               </p>
               <img src={box1} alt="" width="500" height="500" />
             </div>
