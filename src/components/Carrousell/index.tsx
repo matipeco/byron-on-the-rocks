@@ -138,15 +138,17 @@ export const Carrousell = () => {
               height="400"
             />
           </SplideSlide>
-          <SplideSlide>
-            <img
-              className="slide-img"
-              src={img1}
-              alt=""
-              width="600"
-              height="400"
-            />
-          </SplideSlide>
+          {screenWidth < 750 && (
+            <SplideSlide>
+              <img
+                className="slide-img"
+                src={img1}
+                alt=""
+                width="600"
+                height="400"
+              />
+            </SplideSlide>
+          )}
           <SplideSlide>
             <img
               className="slide-img"
