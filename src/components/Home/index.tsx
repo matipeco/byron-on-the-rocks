@@ -9,7 +9,7 @@ export const Home = () => {
         <Fade cascade triggerOnce>
           <div className="home__text">
             <h2 className="home__text-title">
-              Welcome to our world of unique flavors span and experiences!
+              Welcome to our world of unique flavors and experiences!
             </h2>
 
             <h2 className="home__text-titleMob">
