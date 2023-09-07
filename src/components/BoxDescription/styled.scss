@@ -39,13 +39,13 @@
     margin-left: 2rem;
     font-size: 3rem;
     font-family: 'Galano Grotesque Alt', sans-serif;
-    
+    width: 90%;
     span{
       color: #1F2622;
       font-size: 3rem;
       font-weight: 600;
       font-family: 'Galano Grotesque Alt', sans-serif;
-      display: block;
+      // display: block;
     }
   }
 }
@@ -104,7 +104,7 @@
       // outline: 1px solid red;
       width: 90%;
       color: #1F2622;
-      margin-bottom: 0rem;
+      margin-bottom: 1rem;
       margin-left: 0rem;
       font-size: 1.6rem;
       font-family: 'Galano Grotesque Alt', sans-serif;
