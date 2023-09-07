@@ -42,7 +42,7 @@
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    padding-top: 25vh;
+    padding-top: 16rem;
     white-space: pre-line;
     margin-left: 1.5rem;
 
@@ -109,7 +109,6 @@
       background-position: center;
       background-repeat: no-repeat;
       // animation: aparecer 1s ease;
-      margin-top:0rem;
 
       .container{
         display: flex;
@@ -144,7 +143,7 @@
       // outline: 1px solid red;
       // padding-top: 40vh;
       // height: 70vh;
-      padding-top:15vh;
+      padding-top:13vh;
       display: flex;
       color: #1F2622;
       flex-direction: column;

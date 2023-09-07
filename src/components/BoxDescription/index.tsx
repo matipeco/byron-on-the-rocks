@@ -1,5 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-import services from "../../assets/img6.jpg";
+import services from "../../assets/esta.png";
 import services2 from "../../assets/mesa1.png";
 import services3 from "../../assets/mesa2.png";
 import "./styled.scss";
