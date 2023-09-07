@@ -35,25 +35,33 @@ export const OurServices = () => {
               <img src={box1} alt="" width="500" height="500" />
             </div>
             <div className="ourservices__container-box1">
-              <p>
-                From simple packages featuring a selection of beers, wines, and
-                champagnes; to delving into the world of expertly crafted
-                cocktails, mocktails, and homemade lemonade. We have the perfect
-                beverage options to satisfy every palate.
-              </p>
+              <div>
+                <p>
+                  From simple packages featuring a selection of beers, wines,
+                  and champagnes; to delving into the world of expertly crafted
+                  cocktails, mocktails, and homemade lemonade.{" "}
+                  <span>
+                    We have the perfect beverage options to satisfy every
+                    palate.
+                  </span>
+                </p>
+              </div>
               <img src={box1} alt="" width="500" height="500" />
             </div>
             {/* </Fade> */}
             {/* <Fade delay={400} damping={0.2} duration={1300} triggerOnce> */}
             <div className="ourservices__container-box2">
               <img src={box2} alt="" width="500" height="500" />
-              <p>
-                Whether you envision an intimate soirée or a grand celebration,
-                let <span>Byron On The Rocks</span> transform your event into an
-                unforgettable experience. Contact us to discuss your event
-                preferences, and let us raise the bar together. Cheers to
-                creating extraordinary moments!
-              </p>
+              <div>
+                <p>
+                  Whether you envision an intimate soirée or a grand
+                  celebration, let <span>Byron On The Rocks</span> transform
+                  your event into an unforgettable experience. Contact us to
+                  discuss your event preferences, and let us raise the bar
+                  together.{" "}
+                  <span>Cheers to creating extraordinary moments!</span>
+                </p>
+              </div>
             </div>
             <div className="ourservices__container-box2Mob">
               <img src={box2} alt="" width="500" height="500" />
