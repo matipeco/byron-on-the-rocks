@@ -22,7 +22,7 @@ export const About = () => {
               <p>
                 The possibility of bringing my ideas to different events and
                 venues excites me.
-                <span>I want to make each occasion unique</span> and ensure
+                <span> I want to make each occasion unique</span> and ensure
                 people enjoy special moments with a drink in hand.
               </p>
               <p>
