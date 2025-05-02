@@ -4,36 +4,43 @@ import emailjs from "@emailjs/browser";
 
 export const FormEmail = () => {
   const form = useRef<HTMLFormElement | null>(null);
-  const [sending, setSending] = useState(false);
+  const buttonRef = useRef<HTMLInputElement | null>(null);
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
 
   const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (form.current) {
-      setSending(true);
+    if (form.current && buttonRef.current) {
+      buttonRef.current.value = "Sending...";
+      setStatus("idle");
+
       try {
         await emailjs.sendForm(
-          "service_vn2hdpq",
-          "template_6fb029n",
+          "service_0gt83p6", // Tu Service ID
+          "template_g8ugirl", // Tu Template ID
           form.current,
-          "F9NYcVQECJnkEiKcH"
+          "zn_5F1k1DpHGehVBo" // Tu Public Key
         );
-        setSending(false);
-        alert("Message sent successfully!");
+
+        buttonRef.current.value = "Send";
+        setStatus("success");
         form.current.reset();
+        alert("✅ Message sent successfully!");
       } catch (error) {
-        console.log(error);
-        alert(JSON.stringify(error));
+        buttonRef.current.value = "Send";
+        setStatus("error");
+        console.error("Error sending email:", error);
+        alert("❌ There was an error sending your message.");
       }
     }
   };
 
   return (
-    <form ref={form} onSubmit={(e) => sendEmail(e)} className="form__container">
+    <form ref={form} onSubmit={sendEmail} className="form__container">
       <label htmlFor="name">Name</label>
       <input
         type="text"
-        name="user_name"
+        name="from_name"
         id="name"
         placeholder="Name"
         required
@@ -42,7 +49,7 @@ export const FormEmail = () => {
       <label htmlFor="email">Email</label>
       <input
         type="email"
-        name="user_email"
+        name="email_id"
         id="email"
         placeholder="Email"
         required
@@ -51,11 +58,7 @@ export const FormEmail = () => {
       <label htmlFor="message">Message</label>
       <textarea name="message" id="message" placeholder="Message" required />
 
-      <input
-        type="submit"
-        value={sending ? "Sending..." : "Send"}
-        id="btnForm"
-      />
+      <input type="submit" ref={buttonRef} value="Send" id="btnForm" />
     </form>
   );
 };

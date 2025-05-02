@@ -1,6 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import "./style.scss";
-import peter from "../../assets/Foto PETER About.png";
+import peter from "../../assets/peterAbout.jpg";
 
 export const About = () => {
   return (
@@ -11,8 +11,10 @@ export const About = () => {
             <h3 className="about__title">About Us</h3>
             <Fade cascade delay={400} damping={0.2} duration={800} triggerOnce>
               <p>
-                My name is <span>Pedro</span>. For many years I've been
-                fascinated by the world of drinks and mixology.
+                At Byron On The Rocks, we’re a team of passionate individuals
+                united by the joy of creating meaningful experiences for people.
+                We believe great service is about energy, presence, and the
+                small details that make a big difference.
               </p>
               <p>
                 At 27 years old, I decided to venture into bartending, dive in
@@ -20,16 +22,19 @@ export const About = () => {
                 surprising people with different combinations and flavors.
               </p>
               <p>
-                The possibility of bringing my ideas to different events and
-                venues excites me.
-                <span> I want to make each occasion unique</span> and ensure
-                people enjoy special moments with a drink in hand.
+                As a team, we value respect, open communication, and a strong
+                sense of community. We put passion into everything we do,
+                staying fully present for the people we serve, and grounded in
+                the idea that hospitality is, at its core, about generosity and
+                connection.
               </p>
               <p>
-                <span>Byron On The Rocks</span> is not just a job for me; it's a
-                lifestyle filled with joy, creativity, and dedication.
+                We’re proud of the culture we’ve built and the deep sense of
+                belonging that defines us — and we're excited to keep growing,
+                together, alongside everyone who welcomes us into their special
+                moments.
+                <span className="cheers">— Byron On The Rocks Team</span>
               </p>
-              <span className="cheers">Cheers!</span>
             </Fade>
           </div>
           <img src={peter} alt="" width="50" height="50" />
