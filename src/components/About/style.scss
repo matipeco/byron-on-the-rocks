@@ -57,7 +57,7 @@
 @media (max-width:750px){
   .about{
     &__container{
-      padding: 4rem 2rem 0 2.5rem;
+      padding: 4rem 2rem 0 2rem;
       background-color: #e6e6e8;
       padding-bottom: 0rem;
       z-index: 1;
@@ -79,15 +79,18 @@
       .container{
         display: flex;
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
         position: relative;
         min-height: 0;
-        padding-right: 0;
+        padding: 0 0 3rem 0;
+
+        // border: 1px solid red;
         
         img{
-          width: 5rem;
+          margin-right: 0rem;
+          width: 100%;
           height: auto;
-          display: none;
+          // display: none;
         }
       }
       h3{

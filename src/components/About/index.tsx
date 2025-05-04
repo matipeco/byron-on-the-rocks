@@ -17,11 +17,6 @@ export const About = () => {
                 small details that make a big difference.
               </p>
               <p>
-                At 27 years old, I decided to venture into bartending, dive in
-                headfirst, and start my own bar catering service. I love
-                surprising people with different combinations and flavors.
-              </p>
-              <p>
                 As a team, we value respect, open communication, and a strong
                 sense of community. We put passion into everything we do,
                 staying fully present for the people we serve, and grounded in
