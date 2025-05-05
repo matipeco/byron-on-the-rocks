@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 
 export const OurServices = () => {
   return (
-    <section id="OurServices" className="ourservices__container">
+    <section className="ourservices__container">
       <div>
         <img
           className="ourservices__container-especias"
