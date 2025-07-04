@@ -20,7 +20,7 @@ export const Contact = () => {
             <img
               className="contact__container-img"
               src={logo}
-              alt=""
+              alt="logo"
               width="500"
               height="500"
             />
@@ -29,7 +29,7 @@ export const Contact = () => {
                 <img
                   className="contact__container-icons-wpp"
                   src={wpp}
-                  alt=""
+                  alt="wpp"
                   width="50"
                   height="50"
                 />
@@ -38,7 +38,7 @@ export const Contact = () => {
                 <img
                   className="contact__container-icons-insta"
                   src={insta}
-                  alt=""
+                  alt="instagram"
                   width="50"
                   height="50"
                 />
@@ -47,14 +47,14 @@ export const Contact = () => {
                 <img
                   className="contact__container-icons-mail"
                   src={mail}
-                  alt=""
+                  alt="email"
                   width="50"
                   height="50"
                 />
               </a>
             </div>
             <p className="phone">
-              <img src={phone} alt="" width="40" height="40" />
+              <img src={phone} alt="phone" width="40" height="40" />
               +61 431 218 161
             </p>
           </div>

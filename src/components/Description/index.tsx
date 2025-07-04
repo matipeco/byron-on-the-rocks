@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 export const Description = () => {
   return (
     <section id="OurServices" className="description__container">
-      <img src={especias} alt="" width="50" height="50" />
+      <img src={especias} alt="decoration" width="50" height="50" />
 
       <div className="description__text">
         <Fade cascade triggerOnce>

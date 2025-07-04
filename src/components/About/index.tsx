@@ -32,7 +32,7 @@ export const About = () => {
               </p>
             </Fade>
           </div>
-          <img src={peter} alt="" width="50" height="50" />
+          <img src={peter} alt="bartender" width="50" height="50" />
         </div>
       </Fade>
     </section>

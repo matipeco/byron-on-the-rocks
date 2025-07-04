@@ -69,7 +69,7 @@ export const Carrousell = () => {
             <img
               className="slide-img"
               src={img8}
-              alt=""
+              alt="carrousell1"
               width="550"
               height="550"
             />
@@ -79,7 +79,7 @@ export const Carrousell = () => {
             <img
               className="slide-img"
               src={img4}
-              alt=""
+              alt="carrousell2"
               width="450"
               height="550"
             />
@@ -89,7 +89,7 @@ export const Carrousell = () => {
             <img
               className="slide-img"
               src={img11}
-              alt=""
+              alt="carrousell3"
               width="500"
               height="550"
             />
@@ -98,7 +98,7 @@ export const Carrousell = () => {
             <img
               className="slide-img"
               src={img2}
-              alt=""
+              alt="carrousell14"
               width="600"
               height="550"
             />
@@ -108,7 +108,7 @@ export const Carrousell = () => {
               <img
                 className="slide-img"
                 src={img5}
-                alt=""
+                alt="carrousell6"
                 width="1005"
                 height="550"
               />
@@ -118,7 +118,7 @@ export const Carrousell = () => {
             <img
               className="slide-img"
               src={img15}
-              alt=""
+              alt="carrousell7"
               width="650"
               height="720"
             />
@@ -127,7 +127,7 @@ export const Carrousell = () => {
             <img
               className="slide-img"
               src={img3}
-              alt=""
+              alt="carrousell8"
               width="600"
               height="720"
             />
@@ -137,7 +137,7 @@ export const Carrousell = () => {
               <img
                 className="slide-img"
                 src={img12}
-                alt=""
+                alt="carrousell9"
                 width="550"
                 height="500"
               />
@@ -147,7 +147,7 @@ export const Carrousell = () => {
             <img
               className="slide-img"
               src={img13}
-              alt=""
+              alt="carrousell10"
               width="440"
               height="500"
             />
@@ -156,7 +156,7 @@ export const Carrousell = () => {
             <img
               className="slide-img"
               src={img14}
-              alt=""
+              alt="carrousell11"
               width="390"
               height="500"
             />

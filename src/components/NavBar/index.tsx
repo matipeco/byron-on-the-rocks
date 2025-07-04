@@ -74,14 +74,14 @@ export const NavBar = () => {
         className={navMobile ? `btn-menu` : `btn-menu hidden`}
         onClick={(ev) => openNav(ev)}
       >
-        <img src={menu} alt="" width="50" height="50" />
+        <img src={menu} alt="menu" width="50" height="50" />
       </button>
       <nav className={scrolledDown ? "scrolled" : ""} id="nav">
         <Container>
           {navMobile && (
             <div className="btn-close-container">
               <button className="btn-close" onClick={(ev) => closeNav(ev)}>
-                <img src={close} alt="" width="50" height="50" />
+                <img src={close} alt="btn-close" width="50" height="50" />
               </button>
             </div>
           )}
