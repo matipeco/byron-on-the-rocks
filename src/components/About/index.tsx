@@ -8,7 +8,7 @@ export const About = () => {
       <Fade cascade delay={350} damping={0.2} duration={800} triggerOnce>
         <div className="container">
           <div className="container-text">
-            <h3 className="about__title">About Us</h3>
+            <h2 className="about__title">About Us</h2>
             <Fade cascade delay={400} damping={0.2} duration={800} triggerOnce>
               <p>
                 At Byron On The Rocks, we’re a team of passionate individuals

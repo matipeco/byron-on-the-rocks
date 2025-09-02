@@ -16,11 +16,11 @@ export const Home = () => {
               <span> Welcome to our world of </span>
               <span>unique flavors and experiences!</span>
             </h2>
-            <p>
+            <h1>
               We are <span>Byron On The Rocks</span>, experts in pop-up bar
               events in the beautiful region of Northern Rivers and its
               surroundings.
-            </p>
+            </h1>
             <div className="scrollAuto" id="Description"></div>
             <a className="home__button" href="#Description">
               Explore

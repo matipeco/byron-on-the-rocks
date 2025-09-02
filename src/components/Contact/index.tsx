@@ -13,7 +13,7 @@ export const Contact = () => {
       <Fade delay={400} damping={0.2} duration={1500} triggerOnce>
         <div className="contact__container-box">
           <div>
-            <h3>Contact Us</h3>
+            <h2>Contact Us</h2>
             <FormEmail />
           </div>
           <div className="contact__container-box-2">
