@@ -53,12 +53,12 @@
       gap: 2rem;
       input{
         font-size: 1.6rem;
-        width: 90%;
+        width: 100%;
         height: 4rem;
       }
       textarea{
         font-size: 1.6rem;
-        width: 90%;
+        width: 100%;
         height: 15rem;
       }
       #btnForm[value] {
@@ -67,7 +67,7 @@
       :last-child{
         height: 4rem;
         align-items: center;
-        width: 90%;
+        width: 100%;
         text-align: center;
         border: 2px solid #1F2622;
         border-radius: 4px;
