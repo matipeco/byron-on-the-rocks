@@ -7,15 +7,14 @@
   }
 }
 
-.home{
-  &__container{
+.home {
+  &__container {
     min-height: 110vh;
     position: relative;
     background-image: url("../../assets/edit2.png");
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    // animation: aparecer 1s ease;
 
     &:after {
       content: "";
@@ -24,10 +23,14 @@
       left: 0;
       width: 100%;
       height: 2rem;
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgb(231, 231, 233)); 
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgb(231, 231, 233)
+      );
     }
 
-    &>div{
+    & > div {
       display: flex;
       align-items: start;
       justify-content: center;
@@ -35,44 +38,54 @@
     }
   }
 
-  &__text{
+  &__text {
     display: flex;
-    color: #1F2622;
+    color: #1f2622;
     width: 100%;
     align-items: start;
     justify-content: center;
     flex-direction: column;
     padding-top: 16rem;
-    white-space: pre-line;
     margin-left: 1.5rem;
+    white-space: pre-line;
 
-    .home__text-title{
-      font-family: 'Galano Grotesque Alt', sans-serif;
+    .home__text-title {
+      font-family: "Galano Grotesque Alt", sans-serif;
       font-size: 4.8rem;
       line-height: 5rem;
-      letter-spacing: .5px;
+      letter-spacing: 0.5px;
       font-weight: 700;
       width: 62%;
-      
+      animation: aparecer 2s ease;
     }
-    .home__text-titleMob{
+
+    .home__text-titleMob {
       display: none;
     }
-    h1{
+
+    .home__text-description {
+      font-family: "Galano Grotesque", sans-serif;
+      font-size: 2.5rem;
       font-weight: 500;
       margin-top: 2rem;
-      font-family: 'Galano Grotesque', sans-serif;
-      font-size: 2.5rem;
       width: 50%;
-      span{
-        font-size: 2.5rem;
+      color: #1f2622;
+      line-height: 3rem;
+      white-space: normal;
+      overflow-wrap: break-word;
+      animation: aparecer 2.5s ease;
+
+      span {
+        display: inline-block;
+        font-family: "Galano Grotesque Alt", sans-serif;
         font-weight: 600;
-        display: inline;
+        font-size: 2.5rem;
+        color: #101410;
       }
     }
   }
 
-  &__button{
+  &__button {
     align-self: center;
     margin-top: 14rem;
     text-transform: uppercase;
@@ -90,30 +103,32 @@
     animation: aparecer 3s ease-in;
     border-radius: 4px;
 
-    &:hover{
+    &:hover {
       letter-spacing: 4px;
     }
   }
 }
-.scrollAuto{
+
+.scrollAuto {
   transform: translateY(30rem);
 }
 
-@media(max-width: 750px){
-  .home{
-    &__container{
+/* ================= MOBILE ================= */
+@media (max-width: 750px) {
+  .home {
+    &__container {
       min-height: 105vh;
       position: relative;
       background-image: url("../../assets/cheers.jpg");
-      background-size:  cover; 
+      background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      // animation: aparecer 1s ease;
 
-      .container{
+      .container {
         display: flex;
         gap: 0;
-      }      
+      }
+
       &:after {
         content: "";
         position: absolute;
@@ -121,71 +136,71 @@
         left: 0;
         width: 100%;
         height: 2rem;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(230, 230, 232, 1)); 
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0),
+          rgba(230, 230, 232, 1)
+        );
       }
-  
-      &>div{
-        padding: 0 0rem;
+
+      & > div {
+        padding: 0;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        // min-height: 100vh;
         overflow: hidden;
       }
     }
-    &__text{
+
+    &__text {
       margin-left: 2.5rem;
       display: flex;
       align-items: start;
       justify-content: start;
       width: 100%;
-      // outline: 1px solid red;
-      // padding-top: 40vh;
-      // height: 70vh;
-      padding-top:13vh;
-      display: flex;
-      color: #1F2622;
+      padding-top: 13vh;
+      color: #1f2622;
       flex-direction: column;
-      white-space: inherit;
-      padding-left: 0;
-      margin-right: 0rem;
-      .home__text-title{
+
+      .home__text-title {
         display: none;
       }
-      .home__text-titleMob{
+
+      .home__text-titleMob {
         display: block;
         width: 100%;
         line-height: 2.8rem;
         margin-left: 0rem;
         padding-bottom: 0.5rem;
-        span{
+
+        span {
           width: 90%;
           font-size: 2.2rem;
-          font-family: 'Galano Grotesque Alt', sans-serif;
+          font-family: "Galano Grotesque Alt", sans-serif;
           display: block;
         }
       }
-      p{
+
+      .home__text-description {
         display: block;
         line-height: 2.2rem;
         font-weight: 500;
         margin-top: 0rem;
-        font-family: 'Galano Grotesque', sans-serif;
+        font-family: "Galano Grotesque", sans-serif;
         font-size: 1.6rem;
         width: 80%;
         padding-right: 0rem;
-        // color: #0e0f0e;
-        span{
 
+        span {
           font-size: 1.6rem;
           font-weight: 600;
           display: inline;
         }
       }
     }
-  
-    &__button{
+
+    &__button {
       margin-left: 0rem;
       margin-right: 5rem;
       align-self: center;
@@ -194,9 +209,9 @@
       font-size: 1.4rem;
       letter-spacing: 2px;
       padding: 1rem 1.2rem;
-      color:  #1F2622;
+      color: #1f2622;
       background-color: rgba(255, 255, 255, 0.333);
-      border: 2px solid  #1F2622;
+      border: 2px solid #1f2622;
       border-radius: 4px;
       cursor: pointer;
       font-weight: 500;
@@ -205,10 +220,10 @@
       z-index: 1;
       animation: aparecer 3s ease-in;
       box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
-
     }
   }
-  .scrollAuto{
+
+  .scrollAuto {
     transform: translateY(32rem);
   }
 }
