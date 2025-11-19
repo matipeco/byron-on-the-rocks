@@ -54,6 +54,15 @@ export const FormEmail = () => {
         placeholder="Email"
         required
       />
+      <label htmlFor="phone">Phone</label>
+      <input
+        type="tel"
+        name="phone_id"
+        id="phone"
+        placeholder="Phone"
+        required
+        pattern="[0-9+\s]{8,20}"
+      />
 
       <label htmlFor="message">Message</label>
       <textarea name="message" id="message" placeholder="Message" required />
